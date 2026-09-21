@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipaggiamento — Spaceheart</title>
+<meta name="description" content="Armi, corazze, oggetti e consumabili per iniziare, con i prezzi in crediti.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/spaceheart.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="back-btn" href="../index.html">← <span>Spaceheart</span></a>
+  <span class="topbar-title">Equipaggiamento</span>
+  <nav class="topnav" aria-label="Sezioni">
+    <a href="../regole/base.html">Regole</a>
+    <a href="../personaggio/creazione.html" aria-current="page">Personaggio</a>
+    <a href="../classi/index.html">Classi</a>
+    <a href="../domini/index.html">Domini</a>
+    <a href="../progetto/visione.html">Progetto</a>
+    <a href="../licenza.html">Licenza</a>
+  </nav>
+</header>
+
+<main class="doc">
+  <aside class="doc-toc" aria-label="Indice della pagina">
+    <p class="eyebrow">In questa pagina</p>
+    <ol></ol>
+  </aside>
+
+  <article class="doc-body">
+    <header class="doc-header">
+      <p class="eyebrow">Personaggio · Grado 1</p>
+      <h1>Equipaggiamento</h1>
+      <p class="lead">Armi, corazze, oggetti e consumabili per iniziare, con i prezzi in crediti.</p>
+    </header>
+
+    <div class="prose">
+<h2 id="regole-dellequipaggiamento">Regole dell'equipaggiamento<a class="headerlink" href="#regole-dellequipaggiamento" title="Permanent link">#</a></h2>
+<p>Sono <strong>equipaggiati</strong> le armi e la corazza scritte nelle sezioni <em>Armi attive</em> e <em>Corazza attiva</em> della scheda. Puoi attaccare solo con armi equipaggiate e ottenere benefici solo da oggetti equipaggiati. Non puoi equipaggiare oggetti di grado superiore al tuo.</p>
+<ul>
+<li><strong>Armi:</strong> al massimo una <strong>primaria</strong> e una <strong>secondaria</strong>, per un totale di <strong>due mani</strong>. Puoi tenere altre due armi nell'inventario. Scambiare un'arma dell'inventario con una attiva è gratis in un momento di calma; sotto pressione costa 1 Stress.</li>
+<li><strong>Corazza:</strong> una sola alla volta. Non puoi indossarla o toglierla quando sei in pericolo. Le Caselle Armatura segnate restano segnate anche se la togli. Quando cambi corazza, ricalcola le soglie.</li>
+<li><strong>Senza corazza:</strong> Valore Armatura 0, soglia Maggiore pari al tuo livello, soglia Grave pari al doppio del livello.</li>
+</ul>
+<h3 id="leggere-le-tabelle-delle-armi">Leggere le tabelle delle armi<a class="headerlink" href="#leggere-le-tabelle-delle-armi" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Tratto:</strong> il tratto usato per il tiro d'attacco.</li>
+<li><strong>Gittata:</strong> la distanza massima a cui puoi colpire.</li>
+<li><strong>Danno:</strong> tiri un numero di dadi pari alla tua <strong>Competenza</strong> e aggiungi una volta il modificatore fisso. <em>fis</em> = fisico, <em>ene</em> = energetico.</li>
+<li><strong>Carico:</strong> quante mani occupa.</li>
+<li><strong>Caratteristica:</strong> una regola speciale sempre attiva finché l'arma è equipaggiata.</li>
+</ul>
+<p>Chiunque può usare armi energetiche: in Spaceheart sono tecnologia, non magia. Puoi lanciare un'arma equipaggiata contro un bersaglio entro Molto vicino con un tiro di Precisione: se riesci, infliggi i danni normali, ma l'arma non è più equipaggiata finché non la recuperi.</p>
+<div class="callout nota">
+<p class="callout-title">Caricatore</p>
+<p>Le armi con la caratteristica <strong>Caricatore (N)</strong> sono le uniche per cui si contano i colpi. Metti N segnalini sulla scheda e spendine uno a ogni attacco. Quando li hai finiti, segna 1 Stress per ricaricarle tutte.</p>
+</div>
+<h2 id="armi-primarie-di-grado-1">Armi primarie di grado 1<a class="headerlink" href="#armi-primarie-di-grado-1" title="Permanent link">#</a></h2>
+<h3 id="mischia-e-corto-raggio">Mischia e corto raggio<a class="headerlink" href="#mischia-e-corto-raggio" title="Permanent link">#</a></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Tratto</th>
+<th>Gittata</th>
+<th>Danno</th>
+<th>Carico</th>
+<th>Caratteristica</th>
+<th>Prezzo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vibrolama</td>
+<td>Agilità</td>
+<td>Mischia</td>
+<td>d8 fis</td>
+<td>Una mano</td>
+<td><strong>Affidabile:</strong> +1 ai tiri d'attacco</td>
+<td>900 cr</td>
+</tr>
+<tr>
+<td>Lama al plasma</td>
+<td>Agilità</td>
+<td>Mischia</td>
+<td>d10+3 ene</td>
+<td>Due mani</td>
+<td>—</td>
+<td>2.200 cr</td>
+</tr>
+<tr>
+<td>Guanti d'impatto</td>
+<td>Forza</td>
+<td>Mischia</td>
+<td>d8+1 fis</td>
+<td>Una mano</td>
+<td>—</td>
+<td>600 cr</td>
+</tr>
+<tr>
+<td>Maglio sismico</td>
+<td>Forza</td>
+<td>Mischia</td>
+<td>d12+3 fis</td>
+<td>Due mani</td>
+<td><strong>Pesante:</strong> −1 all'Evasione</td>
+<td>1.800 cr</td>
+</tr>
+<tr>
+<td>Ascia da abbordaggio</td>
+<td>Forza</td>
+<td>Mischia</td>
+<td>d10+3 fis</td>
+<td>Due mani</td>
+<td>—</td>
+<td>1.200 cr</td>
+</tr>
+<tr>
+<td>Lama monofilo Vask</td>
+<td>Precisione</td>
+<td>Mischia</td>
+<td>d8+1 fis</td>
+<td>Una mano</td>
+<td>—</td>
+<td>1.150 cr</td>
+</tr>
+<tr>
+<td>Bastone stordente</td>
+<td>Istinto</td>
+<td>Mischia</td>
+<td>d10+3 fis</td>
+<td>Due mani</td>
+<td>—</td>
+<td>800 cr</td>
+</tr>
+<tr>
+<td>Sciabola d'ordinanza</td>
+<td>Presenza</td>
+<td>Mischia</td>
+<td>d8+1 fis</td>
+<td>Una mano</td>
+<td>—</td>
+<td>1.000 cr</td>
+</tr>
+<tr>
+<td>Stiletto a iniezione</td>
+<td>Ingegno</td>
+<td>Mischia</td>
+<td>d8 fis</td>
+<td>Una mano</td>
+<td><strong>Perforante:</strong> con quest'arma la soglia Maggiore del bersaglio conta come più bassa di 2</td>
+<td>1.300 cr</td>
+</tr>
+<tr>
+<td>Pungiglione da guerra</td>
+<td>Precisione</td>
+<td>Molto vicino</td>
+<td>d8+3 fis</td>
+<td>Due mani</td>
+<td>—</td>
+<td>2.200 cr</td>
+</tr>
+<tr>
+<td>Lancia a scarica</td>
+<td>Forza</td>
+<td>Molto vicino</td>
+<td>d10+2 ene</td>
+<td>Due mani</td>
+<td><strong>Ingombrante:</strong> −1 alla Precisione</td>
+<td>1.600 cr</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="distanza">Distanza<a class="headerlink" href="#distanza" title="Permanent link">#</a></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Tratto</th>
+<th>Gittata</th>
+<th>Danno</th>
+<th>Carico</th>
+<th>Caratteristica</th>
+<th>Prezzo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fucile a pompa</td>
+<td>Forza</td>
+<td>Molto vicino</td>
+<td>d6+2 fis</td>
+<td>Due mani</td>
+<td><strong>Rosata:</strong> quando attacchi, colpisci tutte le creature davanti a te entro la gittata</td>
+<td>1.400 cr</td>
+</tr>
+<tr>
+<td>Revolver a proiettili</td>
+<td>Precisione</td>
+<td>Lontano</td>
+<td>d8+1 fis</td>
+<td>Una mano</td>
+<td><strong>Caricatore (6)</strong></td>
+<td>700 cr</td>
+</tr>
+<tr>
+<td>Pistola cinetica</td>
+<td>Precisione</td>
+<td>Lontano</td>
+<td>d6+1 fis</td>
+<td>Una mano</td>
+<td>—</td>
+<td>500 cr</td>
+</tr>
+<tr>
+<td>Pistola a plasma</td>
+<td>Ingegno</td>
+<td>Lontano</td>
+<td>d6+3 ene</td>
+<td>Una mano</td>
+<td><strong>Surriscaldamento:</strong> dopo un attacco tira un d6; con 1 devi segnare 1 Stress per raffreddarla prima di sparare ancora</td>
+<td>1.900 cr</td>
+</tr>
+<tr>
+<td>Fucile a plasma Ashgate Mk.III</td>
+<td>Agilità</td>
+<td>Lontano</td>
+<td>d6+3 ene</td>
+<td>Due mani</td>
+<td>—</td>
+<td>2.400 cr</td>
+</tr>
+<tr>
+<td>Carabina a impulsi</td>
+<td>Istinto</td>
+<td>Lontano</td>
+<td>d6+3 ene</td>
+<td>Due mani</td>
+<td>—</td>
+<td>2.300 cr</td>
+</tr>
+<tr>
+<td>Fucile di precisione</td>
+<td>Agilità</td>
+<td>Molto lontano</td>
+<td>d8+3 fis</td>
+<td>Due mani</td>
+<td><strong>Ingombrante:</strong> −1 alla Precisione</td>
+<td>2.500 cr</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="armi-secondarie-di-grado-1">Armi secondarie di grado 1<a class="headerlink" href="#armi-secondarie-di-grado-1" title="Permanent link">#</a></h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Tratto</th>
+<th>Gittata</th>
+<th>Danno</th>
+<th>Carico</th>
+<th>Caratteristica</th>
+<th>Prezzo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coltello da combattimento</td>
+<td>Precisione</td>
+<td>Mischia</td>
+<td>d8 fis</td>
+<td>Una mano</td>
+<td><strong>In coppia:</strong> +2 ai danni dell'arma primaria contro bersagli in Mischia</td>
+<td>300 cr</td>
+</tr>
+<tr>
+<td>Accetta da abbordaggio</td>
+<td>Agilità</td>
+<td>Mischia</td>
+<td>d8 fis</td>
+<td>Una mano</td>
+<td><strong>Incalzare:</strong> dopo un attacco riuscito con la primaria in Mischia, puoi segnare 1 Stress per avere +1 alla Competenza su quell'attacco</td>
+<td>400 cr</td>
+</tr>
+<tr>
+<td>Scudo balistico</td>
+<td>Forza</td>
+<td>Mischia</td>
+<td>d4 fis</td>
+<td>Una mano</td>
+<td><strong>Protettivo:</strong> +1 al Valore Armatura</td>
+<td>800 cr</td>
+</tr>
+<tr>
+<td>Scudo d'assalto</td>
+<td>Forza</td>
+<td>Mischia</td>
+<td>d6 fis</td>
+<td>Una mano</td>
+<td><strong>Barriera:</strong> +2 al Valore Armatura; −1 all'Evasione</td>
+<td>1.300 cr</td>
+</tr>
+<tr>
+<td>Generatore di scudo da polso</td>
+<td>Ingegno</td>
+<td>Mischia</td>
+<td>d4 ene</td>
+<td>Una mano</td>
+<td><strong>Protettivo:</strong> +1 al Valore Armatura</td>
+<td>1.500 cr</td>
+</tr>
+<tr>
+<td>Mantello balistico</td>
+<td>Presenza</td>
+<td>Mischia</td>
+<td>d4 fis</td>
+<td>Una mano</td>
+<td><strong>Imbottito:</strong> +2 alle soglie di danno</td>
+<td>900 cr</td>
+</tr>
+<tr>
+<td>Dischi da lancio</td>
+<td>Precisione</td>
+<td>Mischia</td>
+<td>d8 fis</td>
+<td>Una mano</td>
+<td><strong>Scorta:</strong> puoi lanciarli entro Vicino con un attacco di Precisione; non devi recuperarli</td>
+<td>500 cr</td>
+</tr>
+<tr>
+<td>Frusta elettrica</td>
+<td>Presenza</td>
+<td>Molto vicino</td>
+<td>d6 ene</td>
+<td>Una mano</td>
+<td><strong>Schiocco:</strong> segna 1 Stress per respingere tutti gli avversari in Mischia fino a Vicino</td>
+<td>700 cr</td>
+</tr>
+<tr>
+<td>Rampino magnetico</td>
+<td>Precisione</td>
+<td>Vicino</td>
+<td>d6 fis</td>
+<td>Una mano</td>
+<td><strong>Aggancio:</strong> con un attacco riuscito puoi tirare il bersaglio in Mischia</td>
+<td>600 cr</td>
+</tr>
+<tr>
+<td>Pistola da tasca</td>
+<td>Precisione</td>
+<td>Lontano</td>
+<td>d6+1 fis</td>
+<td>Una mano</td>
+<td>—</td>
+<td>400 cr</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="corazze-di-grado-1">Corazze di grado 1<a class="headerlink" href="#corazze-di-grado-1" title="Permanent link">#</a></h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Soglie base</th>
+<th>Valore</th>
+<th>Caratteristica</th>
+<th>Prezzo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Veste di Focus</td>
+<td>4 / 10</td>
+<td>2</td>
+<td><strong>Sintonizzata:</strong> ottieni un bonus alle soglie di danno pari al tuo Tratto di Focus</td>
+<td>900 cr</td>
+</tr>
+<tr>
+<td>Tuta da volo</td>
+<td>5 / 11</td>
+<td>3</td>
+<td><strong>Flessibile:</strong> +1 all'Evasione</td>
+<td>1.100 cr</td>
+</tr>
+<tr>
+<td>Giubbotto imbottito</td>
+<td>6 / 12</td>
+<td>3</td>
+<td><strong>Foderato:</strong> segna 1 Stress per annullare un danno Lieve</td>
+<td>1.300 cr</td>
+</tr>
+<tr>
+<td>Corpetto tattico Ashgate</td>
+<td>6 / 13</td>
+<td>3</td>
+<td><strong>Sigillato:</strong> protegge da atmosfere tossiche per un'ora</td>
+<td>1.800 cr</td>
+</tr>
+<tr>
+<td>Armatura a scaglie ceramiche</td>
+<td>7 / 14</td>
+<td>3</td>
+<td><strong>Ingombrante:</strong> −1 alla Precisione</td>
+<td>1.600 cr</td>
+</tr>
+<tr>
+<td>Corazza composita</td>
+<td>7 / 15</td>
+<td>4</td>
+<td><strong>Pesante:</strong> −1 all'Evasione</td>
+<td>2.000 cr</td>
+</tr>
+<tr>
+<td>Armatura d'abbordaggio</td>
+<td>8 / 16</td>
+<td>4</td>
+<td><strong>Voluminosa:</strong> −1 all'Evasione; quando subisci danno Grave devi segnare 1 Stress</td>
+<td>2.200 cr</td>
+</tr>
+<tr>
+<td>Esoarmatura pesante</td>
+<td>8 / 17</td>
+<td>4</td>
+<td><strong>Molto pesante:</strong> −2 all'Evasione; −1 all'Agilità</td>
+<td>2.500 cr</td>
+</tr>
+</tbody>
+</table></div>
+<div class="callout nota">
+<p class="callout-title">Tute e vuoto</p>
+<p>Una corazza <strong>non</strong> è una tuta spaziale, salvo il Corpetto tattico, che protegge per un'ora. Per muoversi nel vuoto serve una tuta pressurizzata (vedi sotto) oppure le regole sugli <a href="../regole/base.html#ambienti-ostili">ambienti ostili</a>.</p>
+</div>
+<h2 id="oggetti">Oggetti<a class="headerlink" href="#oggetti" title="Permanent link">#</a></h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Oggetto</th>
+<th>Effetto</th>
+<th>Prezzo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kit da viaggiatore</td>
+<td>Torcia a batteria, 15 m di cavo, razioni per una settimana, respiratore d'emergenza (un'ora d'aria), comunicatore personale</td>
+<td>250 cr</td>
+</tr>
+<tr>
+<td>Tuta pressurizzata</td>
+<td>Permette di stare nel vuoto per 6 ore. Si indossa <strong>sopra</strong> una corazza leggera (Veste di Focus, Tuta da volo) oppure al posto della corazza</td>
+<td>3.000 cr</td>
+</tr>
+<tr>
+<td>Stivali magnetici</td>
+<td>In gravità zero, su superfici metalliche, non hai svantaggio</td>
+<td>600 cr</td>
+</tr>
+<tr>
+<td>Mantello umido</td>
+<td>L'inverso di una tuta da deserto: trattiene l'acqua attorno al corpo. Standard per i Quorai sui mondi secchi</td>
+<td>1.250 cr</td>
+</tr>
+<tr>
+<td>Ricetrasmettitore a lungo raggio</td>
+<td>Si aggancia ai ripetitori del Consorzio; funziona anche oltre le rotte di salto note</td>
+<td>640 cr</td>
+</tr>
+<tr>
+<td>Astrolabio di rotta</td>
+<td>Strumento di navigazione Velmyr che funziona anche con i sistemi di bordo spenti</td>
+<td>4.200 cr</td>
+</tr>
+<tr>
+<td>Diapason di analisi</td>
+<td>Una sola nota rivela la composizione interna di qualsiasi minerale</td>
+<td>2.900 cr</td>
+</tr>
+<tr>
+<td>Decifratore linguistico</td>
+<td>Traduce 214 lingue note. Non il cromatico Quorai, ufficialmente</td>
+<td>5.400 cr</td>
+</tr>
+<tr>
+<td>Kit da scasso elettronico</td>
+<td>Attrezzi per serrature meccaniche e magnetiche</td>
+<td>800 cr</td>
+</tr>
+<tr>
+<td>Documenti falsi</td>
+<td>Un'identità credibile per un controllo di routine</td>
+<td>1.500 cr</td>
+</tr>
+<tr>
+<td>Seme di Rifugio</td>
+<td>Piantato nel terreno, in tre giorni diventa una cupola abitabile per quattro persone</td>
+<td>6.400 cr</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="consumabili">Consumabili<a class="headerlink" href="#consumabili" title="Permanent link">#</a></h2>
+<p>Un consumabile si usa una volta sola. Puoi portarne al massimo cinque dello stesso tipo. Usarlo non richiede un tiro, salvo che il GM o la situazione lo richiedano. Per trovarne uno a caso, tira 1d12.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>d12</th>
+<th>Consumabile</th>
+<th>Effetto</th>
+<th>Prezzo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Iniettore motorio</td>
+<td>+1 al prossimo tiro di Agilità</td>
+<td>150 cr</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Iniettore muscolare</td>
+<td>+1 al prossimo tiro di Forza</td>
+<td>150 cr</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Stabilizzatore</td>
+<td>+1 al prossimo tiro di Precisione</td>
+<td>150 cr</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Neurostimolante</td>
+<td>+1 al prossimo tiro d'Istinto</td>
+<td>150 cr</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Feromone sociale</td>
+<td>+1 al prossimo tiro di Presenza</td>
+<td>150 cr</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Nootropo</td>
+<td>+1 al prossimo tiro d'Ingegno</td>
+<td>150 cr</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Medgel minore</td>
+<td>Scarichi 1d4 PF</td>
+<td>300 cr</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Stimolante minore</td>
+<td>Scarichi 1d4 Stress</td>
+<td>300 cr</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Cartucce perforanti</td>
+<td>Aggiungi un d6 al prossimo tiro di danni con un'arma che infligge danno fisico</td>
+<td>250 cr</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Foglie di Vel'Ossar</td>
+<td>Masticandole guadagni subito 2 Speranza</td>
+<td>600 cr</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Visore termico monouso</td>
+<td>Vedi nel buio totale fino alla tua prossima sosta</td>
+<td>200 cr</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Granata a plasma instabile</td>
+<td>Con un tiro di Precisione la lanci contro un gruppo di avversari entro Lontano: chi colpisci subisce 1d20 danni energetici</td>
+<td>500 cr</td>
+</tr>
+</tbody>
+</table></div>
+<p>Esistono anche versioni migliori: il <strong>Medgel</strong> (1d4+1 PF) e lo <strong>Stimolante</strong> (1d4+1 Stress) costano 800 cr ciascuno; il <strong>Corallo guaritore</strong> Quorai (780 cr), applicato durante una sosta breve, scarica 1d4+1 PF, ma va conservato in acqua salata o muore.</p>
+    </div>
+    <nav class="doc-pager" aria-label="Pagine"><a href="../personaggio/provenienze.html">← Provenienze</a><a href="../classi/index.html">Le classi →</a></nav>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <p class="compat">Daggerheart™ Compatible. Terms at Daggerheart.com</p>
+  <p>Include materiale dal Daggerheart System Reference Document 2.0, © Critical Role, LLC, secondo la <a href="https://darringtonpress.com/license/">Darrington Press Community Gaming License</a>. Spaceheart non è affiliato a Darrington Press né a Critical Role. <a href="../licenza.html">Attribuzioni complete</a>.</p>
+</footer>
+
+<script src="../js/toc.js"></script>
+</body>
+</html>

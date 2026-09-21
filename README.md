@@ -12,6 +12,9 @@ Sito statico in HTML, CSS e JavaScript, senza compilazione, come l'atlante. GitH
 |---|---|
 | `index.html` | Home |
 | `regole/` | Regole di gioco |
+| `personaggio/` | Creazione, Origini, Provenienze, equipaggiamento |
+| `classi/` | Classi e sottoclassi |
+| `domini/` | Domini e carte dominio (`<article class="dcard dcard-abilita|protocollo|suite|potere">`) |
 | `progetto/` | Visione, glossario, tabella di marcia |
 | `licenza.html` | Attribuzioni DPCGL |
 | `css/spaceheart.css` | Stile unico, con gli stessi token `--hz-*` dell'atlante |
