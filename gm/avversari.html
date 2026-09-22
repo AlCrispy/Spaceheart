@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avversari — Spaceheart</title>
+<meta name="description" content="Pirati, soldati, Kheprani, droni Nexari, vermi delle saline e anomalie di Risonanza, dal grado 1 al 4.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/spaceheart.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="back-btn" href="../index.html">← <span>Spaceheart</span></a>
+  <span class="topbar-title">Avversari</span>
+  <nav class="topnav" aria-label="Sezioni">
+    <a href="../regole/base.html">Regole</a>
+    <a href="../personaggio/creazione.html">Personaggio</a>
+    <a href="../classi/index.html">Classi</a>
+    <a href="../domini/index.html">Domini</a>
+    <a href="../gm/guida.html" aria-current="page">GM</a>
+    <a href="../progetto/visione.html">Progetto</a>
+    <a href="../licenza.html">Licenza</a>
+  </nav>
+</header>
+
+<main class="doc">
+  <aside class="doc-toc" aria-label="Indice della pagina">
+    <p class="eyebrow">In questa pagina</p>
+    <ol></ol>
+  </aside>
+
+  <article class="doc-body">
+    <header class="doc-header">
+      <p class="eyebrow">Guida del GM · Capitolo 2</p>
+      <h1>Avversari</h1>
+      <p class="lead">Pirati, soldati, Kheprani, droni Nexari, vermi delle saline e anomalie di Risonanza, dal grado 1 al 4.</p>
+    </header>
+
+    <div class="prose">
+<h2 id="come-si-legge-una-scheda">Come si legge una scheda<a class="headerlink" href="#come-si-legge-una-scheda" title="Permanent link">#</a></h2>
+<ul>
+<li><strong>Grado e tipo:</strong> il grado dei personaggi che l'avversario deve sfidare, e il suo ruolo nello scontro.</li>
+<li><strong>Motivazioni e tattiche:</strong> cosa vuole e come agisce.</li>
+<li><strong>Difficoltà:</strong> la Difficoltà dei tiri contro di lui, attacchi compresi.</li>
+<li><strong>Soglie, PF e Stress:</strong> funzionano come per i personaggi. Le soglie indicano Maggiore/Grave.</li>
+<li><strong>Attacco:</strong> il modificatore da aggiungere al d20 del GM, e l'attacco standard con gittata e danni.</li>
+<li><strong>Esperienza:</strong> il GM può spendere 1 Paura per aggiungerla a un tiro dell'avversario o alla Difficoltà dei tiri contro di lui.</li>
+<li><strong>Privilegi:</strong> <em>Azioni</em> (si usano quando l'avversario ha i riflettori), <em>Reazioni</em> (scattano quando succede qualcosa), <em>Passivi</em> (sempre attivi), <em>Paura</em> (costano 1 Paura in più).</li>
+</ul>
+<h3 id="tipi-di-avversario">Tipi di avversario<a class="headerlink" href="#tipi-di-avversario" title="Permanent link">#</a></h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Ruolo</th>
+<th>Punti battaglia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gregario</td>
+<td>Cade con un colpo, pericoloso in gruppo</td>
+<td>1 per gruppo grande quanto il party</td>
+</tr>
+<tr>
+<td>Sociale</td>
+<td>Sfida fatta di parole, non di colpi</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Supporto</td>
+<td>Rafforza gli alleati, ostacola i nemici</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Orda</td>
+<td>Gruppo di creature uguali che agisce come una</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Tiratore</td>
+<td>Fragile da vicino, letale a distanza</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Furtivo</td>
+<td>Si muove nell'ombra e sfrutta le aperture</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>Rappresentante tipico del suo gruppo</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Capo</td>
+<td>Comanda e chiama rinforzi</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Bruto</td>
+<td>Resistente, colpisce duro</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Solista</td>
+<td>Da solo sfida tutto il gruppo</td>
+<td>5</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="valori-di-riferimento-per-grado">Valori di riferimento per grado<a class="headerlink" href="#valori-di-riferimento-per-grado" title="Permanent link">#</a></h3>
+<p>Per creare nuovi avversari o adattarne uno a un altro grado:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Statistica</th>
+<th>Grado 1</th>
+<th>Grado 2</th>
+<th>Grado 3</th>
+<th>Grado 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Modificatore d'attacco</td>
+<td>+1</td>
+<td>+2</td>
+<td>+3</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>Danni</td>
+<td>1d6+2 – 1d12+4</td>
+<td>2d6+3 – 2d12+4</td>
+<td>3d8+3 – 3d12+5</td>
+<td>4d8+10 – 4d12+15</td>
+</tr>
+<tr>
+<td>Difficoltà</td>
+<td>11</td>
+<td>14</td>
+<td>17</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Soglie</td>
+<td>7/12</td>
+<td>10/20</td>
+<td>20/32</td>
+<td>25/45</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="privilegi-ricorrenti">Privilegi ricorrenti<a class="headerlink" href="#privilegi-ricorrenti" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Gregario (X):</strong> sconfitto al primo danno; ogni X danni inflitti sconfiggono un altro Gregario entro gittata.</li>
+<li><strong>Orda (danni):</strong> quando l'Orda ha segnato metà dei PF, il suo attacco infligge i danni indicati.</li>
+<li><strong>Implacabile (X):</strong> l'avversario può avere i riflettori fino a X volte per turno del GM, spendendo Paura come di consueto.</li>
+<li><strong>Carapace (X):</strong> i danni fisici subiti si riducono di X.</li>
+</ul>
+<h2 id="grado-1">Grado 1 (livello 1)<a class="headerlink" href="#grado-1" title="Link permanente">#</a></h2>
+<div class="statblocks"><article class="statblock">
+  <header class="sb-head"><h3 id="predone-delle-rotte">Predone delle rotte</h3><span class="sb-tier">Grado 1 · Gregario</span></header>
+  <p class="sb-desc">Un ragazzo con una pistola da quattro soldi e troppa voglia di dimostrare qualcosa.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Fuggire, arraffare, lanciare fumogeni</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>9</dd></div><div><dt>Soglie</dt><dd>Nessuna</dd></div><div><dt>PF</dt><dd>1</dd></div><div><dt>Stress</dt><dd>1</dd></div><div><dt>Attacco</dt><dd>−2</dd></div></dl><p class="sb-atk"><strong>Pistola da tasca:</strong> Vicino · 2 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Borseggio +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Gregario (3)</strong> <span class="sb-kind">Passivo</span></p><p>il Predone è sconfitto appena subisce danni. Per ogni 3 danni che un personaggio infligge a il Predone, sconfigge un altro Gregario entro la gittata contro cui l'attacco avrebbe successo.</p></div><div class="sb-feat sb-azione"><p><strong>Assalto di gruppo</strong> <span class="sb-kind">Azione</span></p><p>Spendi 1 Paura per scegliere un bersaglio e dare i riflettori a tutti i Predoni entro Vicino da lui. Si portano entro Molto vicino e fanno un unico tiro d'attacco: se va a segno, infliggono 2 danni fisici ciascuno. Somma i danni.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="pirata-delle-rotte">Pirata delle rotte</h3><span class="sb-tier">Grado 1 · Standard</span></header>
+  <p class="sb-desc">Una predona spaziale con un corpetto rattoppato e una pistola cinetica ben tenuta.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Abbordare, depredare, intimidire, sparire</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>12</dd></div><div><dt>Soglie</dt><dd>8/14</dd></div><div><dt>PF</dt><dd>5</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+1</dd></div></dl><p class="sb-atk"><strong>Pistola cinetica:</strong> Lontano · 1d8+2 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Abbordaggio +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-azione"><p><strong>Fuoco di soppressione</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress e scegli un personaggio entro Lontano: deve segnare 1 Stress oppure spostarsi subito dietro una copertura, rinunciando al prossimo movimento.</p></div><div class="sb-feat sb-passivo"><p><strong>Arrembaggio</strong> <span class="sb-kind">Passivo</span></p><p>In una nave o una stazione, il Pirata non subisce svantaggio per la gravità zero.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="cecchino-pirata">Cecchino pirata</h3><span class="sb-tier">Grado 1 · Tiratore</span></header>
+  <p class="sb-desc">Un tiratore magro e paziente, appostato dietro una paratia con un fucile di precisione.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Tendere agguati, nascondersi, riposizionarsi</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>13</dd></div><div><dt>Soglie</dt><dd>4/7</dd></div><div><dt>PF</dt><dd>3</dd></div><div><dt>Stress</dt><dd>2</dd></div><div><dt>Attacco</dt><dd>−1</dd></div></dl><p class="sb-atk"><strong>Fucile di precisione:</strong> Molto lontano · 1d10+2 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Mimetismo +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Colpo dall&#x27;ombra</strong> <span class="sb-kind">Passivo</span></p><p>Se il Cecchino è Nascosto quando un suo attacco standard va a segno, infligge 1d10+4 danni fisici invece del danno normale.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="capitano-pirata">Capitano pirata</h3><span class="sb-tier">Grado 1 · Capo</span></header>
+  <p class="sb-desc">Una veterana delle rotte, con il cappotto della Flotta da cui ha disertato e una voce che non ammette repliche.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Comandare, estorcere, rinforzare, sopravvivere</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>13</dd></div><div><dt>Soglie</dt><dd>7/14</dd></div><div><dt>PF</dt><dd>6</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+2</dd></div></dl><p class="sb-atk"><strong>Pistola a plasma:</strong> Lontano · 1d8+3 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Conoscenza delle rotte +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-azione"><p><strong>Tattica</strong> <span class="sb-kind">Azione</span></p><p>Quando dai i riflettori al Capitano, segna 1 Stress per darli anche a due alleati entro Vicino.</p></div><div class="sb-feat sb-azione"><p><strong>Rinforzi</strong> <span class="sb-kind">Azione</span></p><p>Evoca tre Predoni delle rotte, che compaiono a distanza Lontano.</p></div><div class="sb-feat sb-paura"><p><strong>Colpo di grazia</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura per attaccare un bersaglio Vulnerabile entro Vicino. Se va a segno, infligge 2d6+12 danni fisici e il bersaglio segna 1 Stress.</p></div><div class="sb-feat sb-reazione"><p><strong>Slancio</strong> <span class="sb-kind">Reazione</span></p><p>Quando il Capitano colpisce un personaggio con un attacco, guadagni 1 Paura.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="milite-coloniale">Milite coloniale</h3><span class="sb-tier">Grado 1 · Standard</span></header>
+  <p class="sb-desc">Un colono con un fucile a plasma d&#x27;ordinanza e la divisa della milizia, deciso a difendere casa.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Difendere, chiedere rinforzi, seguire gli ordini</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>12</dd></div><div><dt>Soglie</dt><dd>6/12</dd></div><div><dt>PF</dt><dd>4</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+1</dd></div></dl><p class="sb-atk"><strong>Fucile a plasma Ashgate:</strong> Lontano · 1d8+2 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Conosce la colonia +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Formazione</strong> <span class="sb-kind">Passivo</span></p><p>Il Milite ottiene +1 alla Difficoltà per ogni altro Milite entro Molto vicino.</p></div><div class="sb-feat sb-paura"><p><strong>Chiamare rinforzi</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura: arrivano altri 1d4 Militi coloniali, a distanza Lontano.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="drone-di-sicurezza-nexari">Drone di sicurezza Nexari</h3><span class="sb-tier">Grado 1 · Standard</span></header>
+  <p class="sb-desc">Una sfera nera opaca con linee di luce verde e bracci telescopici, che fluttua in silenzio.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Coordinarsi, sorvegliare, contenere, calcolare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>12</dd></div><div><dt>Soglie</dt><dd>5/10</dd></div><div><dt>PF</dt><dd>4</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+1</dd></div></dl><p class="sb-atk"><strong>Raggio di contenimento:</strong> Vicino · 1d10+1 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Macchine +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Mente di rete</strong> <span class="sb-kind">Passivo</span></p><p>Il Drone ottiene +1 alla Difficoltà per ogni altro Drone entro Vicino.</p></div><div class="sb-feat sb-passivo"><p><strong>Tattiche adattive</strong> <span class="sb-kind">Passivo</span></p><p>Riserva. Quando un Drone fallisce un tiro d'attacco, aggiungi un segnalino alla riserva dei Droni. Tutti i Droni della scena ottengono un bonus ai tiri d'attacco pari ai segnalini nella riserva. Scarta i segnalini quando un Drone subisce danno Grave o viene sconfitto.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="guerriero-kheprani">Guerriero Kheprani</h3><span class="sb-tier">Grado 1 · Bruto</span></header>
+  <p class="sb-desc">Un artropode grande come un cane da slitta, con carapace bronzeo e un pungiglione pieno di veleno di casta.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Difendere il nido, circondare, paralizzare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>13</dd></div><div><dt>Soglie</dt><dd>8/15</dd></div><div><dt>PF</dt><dd>7</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+1</dd></div></dl><p class="sb-atk"><strong>Pungiglione:</strong> Molto vicino · 1d10+4 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Odore di nido +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Carapace (2)</strong> <span class="sb-kind">Passivo</span></p><p>Quando il Guerriero subisce danno fisico, riducilo di 2.</p></div><div class="sb-feat sb-azione"><p><strong>Veleno di casta</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress per attaccare un bersaglio entro Molto vicino. Se va a segno, infligge 1d10+2 danni fisici e il bersaglio è temporaneamente Immobilizzato.</p></div><div class="sb-feat sb-reazione"><p><strong>Odore di guerra</strong> <span class="sb-kind">Reazione</span></p><p>Quando un altro Kheprani entro Vicino viene sconfitto, il Guerriero ha vantaggio sul suo prossimo attacco.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="emissario-kheprani">Emissario Kheprani</h3><span class="sb-tier">Grado 1 · Sociale</span></header>
+  <p class="sb-desc">Un artropode dalle antenne piumate e dai modi squisiti, che capisce cosa vuoi prima che tu lo dica.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Commerciare, annusare le intenzioni, mentire con eleganza</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>12</dd></div><div><dt>Soglie</dt><dd>4/8</dd></div><div><dt>PF</dt><dd>3</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>−3</dd></div></dl><p class="sb-atk"><strong>Pungiglione cerimoniale:</strong> Mischia · 1d4+1 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Negoziatore +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Leggere gli odori</strong> <span class="sb-kind">Passivo</span></p><p>I tiri per ingannare l'Emissario hanno svantaggio.</p></div><div class="sb-feat sb-passivo"><p><strong>Trattativa estenuante</strong> <span class="sb-kind">Passivo</span></p><p>Quando un personaggio ottiene 14 o meno in un tiro di Presenza contro l'Emissario, segna 1 Stress.</p></div><div class="sb-feat sb-paura"><p><strong>Offerta che non si rifiuta</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura: l'Emissario rivela di sapere un segreto sul gruppo, e lo usa come merce di scambio.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="sciame-di-mandibolari">Sciame di mandibolari</h3><span class="sb-tier">Grado 1 · Orda (5/PF)</span></header>
+  <p class="sb-desc">Una marea di insetti neri grandi come un pugno, che escono dalle crepe delle saline.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Divorare, circondare, sciamare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>10</dd></div><div><dt>Soglie</dt><dd>6/10</dd></div><div><dt>PF</dt><dd>6</dd></div><div><dt>Stress</dt><dd>2</dd></div><div><dt>Attacco</dt><dd>−3</dd></div></dl><p class="sb-atk"><strong>Morsi:</strong> Mischia · 1d8+2 fis</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Orda (1d4+1)</strong> <span class="sb-kind">Passivo</span></p><p>Quando lo Sciame ha segnato metà o più dei suoi PF, il suo attacco standard infligge 1d4+1 danni fisici.</p></div><div class="sb-feat sb-azione"><p><strong>Sommergere</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress per coprire un bersaglio in Mischia: diventa temporaneamente Immobilizzato e segna 1 Stress.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="predatore-mimetico">Predatore mimetico</h3><span class="sb-tier">Grado 1 · Furtivo</span></header>
+  <p class="sb-desc">Un cacciatore del Suolo Scuro di Eldousk, dalla pelle che copia i colori della corteccia.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Tendere agguati, isolare, sparire</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>12</dd></div><div><dt>Soglie</dt><dd>5/9</dd></div><div><dt>PF</dt><dd>4</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+1</dd></div></dl><p class="sb-atk"><strong>Artigli:</strong> Mischia · 1d8+3 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Mimetismo +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-azione"><p><strong>Mimetizzarsi</strong> <span class="sb-kind">Azione</span></p><p>Il Predatore diventa Nascosto fino a dopo il suo prossimo attacco. Gli attacchi fatti mentre è Nascosto in questo modo hanno vantaggio.</p></div><div class="sb-feat sb-passivo"><p><strong>Agguato</strong> <span class="sb-kind">Passivo</span></p><p>Quando un attacco standard con vantaggio del Predatore va a segno, infligge 1d6+6 danni fisici invece del danno normale.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="funzionario-della-gilda">Funzionario della Gilda</h3><span class="sb-tier">Grado 1 · Sociale</span></header>
+  <p class="sb-desc">Un burocrate impeccabile della Gilda dei Naviganti, con un tablet pieno di moduli e di cavilli.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Certificare, rimandare, estorcere tariffe, proteggere il monopolio</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>13</dd></div><div><dt>Soglie</dt><dd>4/8</dd></div><div><dt>PF</dt><dd>3</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>−4</dd></div></dl><p class="sb-atk"><strong>Scossa del tablet:</strong> Mischia · 1d4 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Regolamenti +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Burocrazia</strong> <span class="sb-kind">Passivo</span></p><p>Un personaggio che riesce in un tiro di Presenza contro il Funzionario ottiene i permessi senza costi aggiuntivi; se fallisce, paga il doppio e ha svantaggio sui successivi tiri di Presenza contro di lui.</p></div><div class="sb-feat sb-paura"><p><strong>Rotta revocata</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura: la certificazione di salto della nave del gruppo è sospesa finché non si risolve la questione.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="verme-delle-saline">Verme delle saline</h3><span class="sb-tier">Grado 1 · Solista</span></header>
+  <p class="sb-desc">Un verme corazzato lungo dieci metri che nuota nella sabbia salata come un pesce nell&#x27;acqua.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Emergere da sotto, inghiottire, ritirarsi quando ferito</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>14</dd></div><div><dt>Soglie</dt><dd>8/16</dd></div><div><dt>PF</dt><dd>8</dd></div><div><dt>Stress</dt><dd>4</dd></div><div><dt>Attacco</dt><dd>+3</dd></div></dl><p class="sb-atk"><strong>Morso:</strong> Molto vicino · 1d12+4 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Senso sismico +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Implacabile (2)</strong> <span class="sb-kind">Passivo</span></p><p>il Verme può avere i riflettori fino a 2 volte per turno del GM. Spendi Paura come di consueto per dargli i riflettori.</p></div><div class="sb-feat sb-azione"><p><strong>Emergere</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress: il Verme sparisce sotto la sabbia ed emerge in Mischia con un bersaglio entro Lontano, attaccandolo con vantaggio.</p></div><div class="sb-feat sb-paura"><p><strong>Inghiottire</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura per attaccare un bersaglio in Mischia. Se va a segno, lo inghiotte: è Immobilizzato e segna 1 PF ogni volta che il Verme ha i riflettori. Il Verme lo rigurgita quando subisce danno Maggiore o superiore.</p></div><div class="sb-feat sb-reazione"><p><strong>Affamato, non stupido</strong> <span class="sb-kind">Reazione</span></p><p>Quando il Verme ha segnato metà dei suoi PF, tira un d6: con 3 o meno si ritira sotto la sabbia.</p></div></div>
+</article></div>
+<h2 id="grado-2">Grado 2 (livelli 2–4)<a class="headerlink" href="#grado-2" title="Link permanente">#</a></h2>
+<div class="statblocks"><article class="statblock">
+  <header class="sb-head"><h3 id="soldato-della-flotta">Soldato della Flotta</h3><span class="sb-tier">Grado 2 · Standard</span></header>
+  <p class="sb-desc">Un fante della Flotta di Sorveglianza in corazza composita, addestrato ad abbordare e a non fare domande.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Mantenere l'ordine, coprire la squadra, eseguire</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>15</dd></div><div><dt>Soglie</dt><dd>9/18</dd></div><div><dt>PF</dt><dd>4</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+1</dd></div></dl><p class="sb-atk"><strong>Fucile a plasma:</strong> Lontano · 2d8+4 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Tattiche di squadra +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-azione"><p><strong>Fuoco coordinato</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress per portarti in copertura vicino a un alleato e attaccare un bersaglio entro Lontano. Se va a segno, infligge 2d10+2 danni energetici e l'alleato scarica 1 Stress.</p></div><div class="sb-feat sb-reazione"><p><strong>Proteggere l&#x27;ufficiale</strong> <span class="sb-kind">Reazione</span></p><p>Quando un ufficiale entro Molto vicino sta per subire danno, puoi segnare 1 Stress per mettere il Soldato in mezzo: subisce lui il danno.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="agente-del-consorzio">Agente del Consorzio</h3><span class="sb-tier">Grado 2 · Sociale</span></header>
+  <p class="sb-desc">Un agente dei servizi del Consorzio, che sembra sempre trovarsi nel posto giusto per sentire la cosa sbagliata.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Travestirsi, origliare, scappare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>15</dd></div><div><dt>Soglie</dt><dd>8/17</dd></div><div><dt>PF</dt><dd>4</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>−2</dd></div></dl><p class="sb-atk"><strong>Pistola silenziata:</strong> Vicino · 2d6+3 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Spionaggio +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-paura"><p><strong>Segreti raccolti</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura per descrivere come l'Agente conosce un segreto di un personaggio presente.</p></div><div class="sb-feat sb-reazione"><p><strong>Mosca sul muro</strong> <span class="sb-kind">Reazione</span></p><p>Quando il gruppo discute qualcosa di delicato, puoi segnare 1 Stress per rivelare che l'Agente è lì e ascolta. Se riesce a lasciare la scena per fare rapporto, guadagni 1d4 Paura.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="cacciatore-di-risonanti">Cacciatore di Risonanti</h3><span class="sb-tier">Grado 2 · Furtivo</span></header>
+  <p class="sb-desc">Un cacciatore silenzioso con un collare smorzatore alla cintura e una lista di nomi di persone che nessuno cerca più.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Fiutare l'Eco, isolare, catturare, consegnare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>15</dd></div><div><dt>Soglie</dt><dd>10/19</dd></div><div><dt>PF</dt><dd>5</dd></div><div><dt>Stress</dt><dd>4</dd></div><div><dt>Attacco</dt><dd>+2</dd></div></dl><p class="sb-atk"><strong>Lama smorzante:</strong> Mischia · 2d10+3 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Cacciare Risonanti +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Campo smorzante</strong> <span class="sb-kind">Passivo</span></p><p>I Tiri di Focus per usare Poteri entro Vicino dal Cacciatore hanno svantaggio.</p></div><div class="sb-feat sb-reazione"><p><strong>Fiuto per l&#x27;Eco</strong> <span class="sb-kind">Reazione</span></p><p>Quando il GM usa un'Eco entro Molto lontano dal Cacciatore, guadagni 1 Paura e il Cacciatore può spostarsi entro Vicino dal Risonante.</p></div><div class="sb-feat sb-paura"><p><strong>Collare</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura per attaccare un Risonante in Mischia. Se va a segno, gli chiude al collo un collare smorzatore: finché non viene tolto (un tiro di Precisione o d'Ingegno riuscito, 15), non può usare carte Potere.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="nodo-guerriero-ythar">Nodo guerriero Ythar</h3><span class="sb-tier">Grado 2 · Bruto</span></header>
+  <p class="sb-desc">Un Ythar coltivato per la guerra, con placche traslucide spesse come scudi e vene che pulsano di rosso.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Proteggere il Coro, spargere spore, restituire i morti alla terra</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>14</dd></div><div><dt>Soglie</dt><dd>12/24</dd></div><div><dt>PF</dt><dd>7</dd></div><div><dt>Stress</dt><dd>4</dd></div><div><dt>Attacco</dt><dd>+2</dd></div></dl><p class="sb-atk"><strong>Braccia uncinate:</strong> Molto vicino · 2d10+4 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Coro +2</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Coro di guerra</strong> <span class="sb-kind">Passivo</span></p><p>Il Nodo ottiene +1 ai tiri d'attacco per ogni altro Ythar entro Vicino.</p></div><div class="sb-feat sb-azione"><p><strong>Nube di spore</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress: tutte le creature entro Molto vicino fanno un tiro di reazione d'Istinto. Chi fallisce diventa temporaneamente Vulnerabile, confuso da pensieri non suoi.</p></div><div class="sb-feat sb-reazione"><p><strong>Ritorno</strong> <span class="sb-kind">Reazione</span></p><p>Quando il Nodo viene sconfitto, un altro Ythar entro Vicino scarica 2 PF.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="sciame-di-droni">Sciame di droni</h3><span class="sb-tier">Grado 2 · Orda (3/PF)</span></header>
+  <p class="sb-desc">Una nuvola ronzante di microdroni armati, guidati da un unico segnale.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Circondare, accecare, sopraffare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>14</dd></div><div><dt>Soglie</dt><dd>10/20</dd></div><div><dt>PF</dt><dd>6</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+1</dd></div></dl><p class="sb-atk"><strong>Microlaser:</strong> Vicino · 2d6+3 ene</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Orda (1d8+2)</strong> <span class="sb-kind">Passivo</span></p><p>Quando lo Sciame ha segnato metà o più dei suoi PF, il suo attacco standard infligge 1d8+2 danni energetici.</p></div><div class="sb-feat sb-azione"><p><strong>Interferenza</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress: fino al prossimo turno del GM, i personaggi entro Vicino dallo Sciame hanno svantaggio sui Tiri di Focus per usare Protocolli.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="guardiano-nexari">Guardiano Nexari</h3><span class="sb-tier">Grado 2 · Solista</span></header>
+  <p class="sb-desc">Un&#x27;unità da custodia alta sei metri, lasciata a proteggere un archivio dei Costruttori di Pyxis.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Custodire, calcolare, contenere gli intrusi</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>16</dd></div><div><dt>Soglie</dt><dd>14/27</dd></div><div><dt>PF</dt><dd>8</dd></div><div><dt>Stress</dt><dd>4</dd></div><div><dt>Attacco</dt><dd>+3</dd></div></dl><p class="sb-atk"><strong>Raggio disgregatore:</strong> Lontano · 2d12+3 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Probabilità +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Implacabile (2)</strong> <span class="sb-kind">Passivo</span></p><p>il Guardiano può avere i riflettori fino a 2 volte per turno del GM. Spendi Paura come di consueto per dargli i riflettori.</p></div><div class="sb-feat sb-reazione"><p><strong>Calcolo</strong> <span class="sb-kind">Reazione</span></p><p>Quando un personaggio fallisce un tiro entro Lontano dal Guardiano, guadagni 1 Paura.</p></div><div class="sb-feat sb-paura"><p><strong>Protocollo di contenimento</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura: tutti i personaggi entro Vicino fanno un tiro di reazione di Agilità (15). Chi fallisce è Immobilizzato da un campo di forza finché non riesce in un tiro di Forza (15).</p></div><div class="sb-feat sb-reazione"><p><strong>Probabilità 0,02</strong> <span class="sb-kind">Reazione</span></p><p>Quando il Guardiano segna il suo ultimo PF, tira un d6: con 6 si riavvia e scarica 2 PF. Può succedere una sola volta.</p></div></div>
+</article></div>
+<h2 id="grado-3">Grado 3 (livelli 5–7)<a class="headerlink" href="#grado-3" title="Link permanente">#</a></h2>
+<div class="statblocks"><article class="statblock">
+  <header class="sb-head"><h3 id="ritagliatore-coralith">Ritagliatore Coralith</h3><span class="sb-tier">Grado 3 · Standard</span></header>
+  <p class="sb-desc">Un Coralith della Simmetria incaricato di correggere le «imperfezioni». Porta una lancia armonica e non alza mai la voce.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Correggere, calcolare, frantumare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>17</dd></div><div><dt>Soglie</dt><dd>20/32</dd></div><div><dt>PF</dt><dd>5</dd></div><div><dt>Stress</dt><dd>4</dd></div><div><dt>Attacco</dt><dd>+3</dd></div></dl><p class="sb-atk"><strong>Lancia armonica:</strong> Vicino · 3d8+4 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Simmetria +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Reticolo</strong> <span class="sb-kind">Passivo</span></p><p>Il Ritagliatore ha resistenza ai danni fisici.</p></div><div class="sb-feat sb-azione"><p><strong>Nota che frantuma</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress per attaccare un bersaglio entro Vicino. Se va a segno, il bersaglio segna 2 Caselle Armatura senza ottenerne il beneficio e subisce 3d8+4 danni energetici.</p></div><div class="sb-feat sb-passivo"><p><strong>Vulnerabile al freddo</strong> <span class="sb-kind">Passivo</span></p><p>Quando il Ritagliatore subisce danno da freddo estremo o da una frequenza armonica, segna 1 Stress in più.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="comandante-della-gilda">Comandante della Gilda</h3><span class="sb-tier">Grado 3 · Capo</span></header>
+  <p class="sb-desc">Un ufficiale della sicurezza privata della Gilda dei Naviganti, con un esoscheletro leggero e una squadra fedelissima.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Proteggere i cantieri, chiudere le rotte, comandare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>17</dd></div><div><dt>Soglie</dt><dd>20/32</dd></div><div><dt>PF</dt><dd>7</dd></div><div><dt>Stress</dt><dd>4</dd></div><div><dt>Attacco</dt><dd>+3</dd></div></dl><p class="sb-atk"><strong>Fucile a impulsi:</strong> Lontano · 3d8+3 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Comando +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-azione"><p><strong>Ordini secchi</strong> <span class="sb-kind">Azione</span></p><p>Quando dai i riflettori al Comandante, segna 1 Stress per darli anche a tre alleati entro Lontano.</p></div><div class="sb-feat sb-paura"><p><strong>Squadra d&#x27;assalto</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura: compaiono due Soldati della Flotta (o guardie equivalenti della Gilda) a distanza Lontano.</p></div><div class="sb-feat sb-reazione"><p><strong>Esoscheletro</strong> <span class="sb-kind">Reazione</span></p><p>Una volta per scena, quando il Comandante subisce danno Grave, riducilo a Maggiore.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="cacciatori-delle-nubi">Cacciatori delle nubi</h3><span class="sb-tier">Grado 3 · Orda (2/PF)</span></header>
+  <p class="sb-desc">Un branco di predatori alati e veloci delle nubi di Othouven, che attaccano i Vaelun giovani e chiunque voli.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Cacciare in branco, picchiare dall'alto, trascinare giù</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>17</dd></div><div><dt>Soglie</dt><dd>18/30</dd></div><div><dt>PF</dt><dd>6</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+2</dd></div></dl><p class="sb-atk"><strong>Morsi in picchiata:</strong> Vicino · 3d8+3 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Caccia aerea +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Orda (2d6+4)</strong> <span class="sb-kind">Passivo</span></p><p>Quando il branco ha segnato metà o più dei suoi PF, il suo attacco standard infligge 2d6+4 danni fisici.</p></div><div class="sb-feat sb-azione"><p><strong>Trascinare giù</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress per attaccare un bersaglio in volo o su una piattaforma sospesa. Se va a segno, il bersaglio viene trascinato verso il basso di una gittata e subisce danni da caduta.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="verme-reale-delle-saline">Verme reale delle saline</h3><span class="sb-tier">Grado 3 · Bruto</span></header>
+  <p class="sb-desc">Un verme colossale e corazzato, abbastanza intelligente da cacciare i convogli che trasportano il sale.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Emergere da sotto, mangiare e andarsene, usare entrambe le estremità</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>17</dd></div><div><dt>Soglie</dt><dd>21/40</dd></div><div><dt>PF</dt><dd>6</dd></div><div><dt>Stress</dt><dd>3</dd></div><div><dt>Attacco</dt><dd>+1</dd></div></dl><p class="sb-atk"><strong>Morso:</strong> Molto vicino · 3d8+4 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Senso sismico +4</p>
+  <div class="sb-feats"><div class="sb-feat sb-azione"><p><strong>Pungiglione caudale</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress per attaccare un bersaglio entro Vicino. Se va a segno, subisce 3d10+2 danni fisici e deve riuscire in un tiro di reazione di Forza o diventare Immobilizzato e Vulnerabile finché non tira con Speranza.</p></div><div class="sb-feat sb-azione"><p><strong>Divorare</strong> <span class="sb-kind">Azione</span></p><p>Attacca un bersaglio in Mischia. Se va a segno, lo inghiotte: è Immobilizzato e segna 1 PF ogni volta che il Verme ha i riflettori. Il Verme rigurgita tutti quando subisce danno Maggiore o superiore.</p></div><div class="sb-feat sb-reazione"><p><strong>Affamato, non stupido</strong> <span class="sb-kind">Reazione</span></p><p>Quando il Verme ha segnato metà dei suoi PF o ha inghiottito qualcuno, tira un d6: con 3 o meno si ritira.</p></div></div>
+</article></div>
+<h2 id="grado-4">Grado 4 (livelli 8–10)<a class="headerlink" href="#grado-4" title="Link permanente">#</a></h2>
+<div class="statblocks"><article class="statblock">
+  <header class="sb-head"><h3 id="colosso-nexari">Colosso Nexari</h3><span class="sb-tier">Grado 4 · Solista</span></header>
+  <p class="sb-desc">Un&#x27;unità da costruzione alta cento metri, nera e silenziosa, con occhi di luce verde. Qualcuno l&#x27;ha riprogrammata per distruggere.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Schiacciare, demolire, eseguire l'istruzione</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>20</dd></div><div><dt>Soglie</dt><dd>48/88</dd></div><div><dt>PF</dt><dd>10</dd></div><div><dt>Stress</dt><dd>6</dd></div><div><dt>Attacco</dt><dd>+7</dd></div></dl><p class="sb-atk"><strong>Pugni industriali:</strong> Vicino · 4d12+10 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Indistruttibile +3</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Implacabile (3)</strong> <span class="sb-kind">Passivo</span></p><p>il Colosso può avere i riflettori fino a 3 volte per turno del GM. Spendi Paura come di consueto per dargli i riflettori.</p></div><div class="sb-feat sb-passivo"><p><strong>Mole spaventosa</strong> <span class="sb-kind">Passivo</span></p><p>Quando il Colosso entra in scena, ogni personaggio perde 1 Speranza o segna 1d4 Stress.</p></div><div class="sb-feat sb-azione"><p><strong>Pugno a propulsione</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress per attaccare un personaggio entro Vicino. Se va a segno, subisce 4d12+10 danni fisici diretti e segna 2 Caselle Armatura senza ottenerne il beneficio.</p></div><div class="sb-feat sb-paura"><p><strong>Pestata</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura, scegli un punto entro Vicino e attacca tutti i nemici entro Vicino da quel punto. Chi viene colpito subisce 4d12 danni fisici diretti ed è Vulnerabile finché non ha i riflettori. L'area diventa macerie: per attraversarla serve un tiro di reazione di Agilità (16).</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="anomalia-di-risonanza">Anomalia di Risonanza</h3><span class="sb-tier">Grado 4 · Solista</span></header>
+  <p class="sb-desc">Una tempesta viva di gravità e luce distorta, nata dove un salto è andato storto. Nessuno sa cosa sia. Sembra cercare i Risonanti.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Attirare, piegare, divorare la Risonanza</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>20</dd></div><div><dt>Soglie</dt><dd>30/55</dd></div><div><dt>PF</dt><dd>9</dd></div><div><dt>Stress</dt><dd>6</dd></div><div><dt>Attacco</dt><dd>+4</dd></div></dl><p class="sb-atk"><strong>Piega:</strong> Lontano · 4d10+10 ene</p><p class="sb-esp"><strong>Esperienza:</strong> Inconoscibile +4</p>
+  <div class="sb-feats"><div class="sb-feat sb-passivo"><p><strong>Implacabile (2)</strong> <span class="sb-kind">Passivo</span></p><p>l'Anomalia può avere i riflettori fino a 2 volte per turno del GM. Spendi Paura come di consueto per dargli i riflettori.</p></div><div class="sb-feat sb-passivo"><p><strong>Campo instabile</strong> <span class="sb-kind">Passivo</span></p><p>Entro Lontano dall'Anomalia, ogni volta che un personaggio ottiene un risultato con Paura, il GM guadagna 1 Paura in più. Ogni Tiro di Focus per un Potere fatto entro Lontano provoca un'Eco senza che il GM spenda Paura.</p></div><div class="sb-feat sb-azione"><p><strong>Attrazione</strong> <span class="sb-kind">Azione</span></p><p>Segna 1 Stress: tutte le creature entro Lontano vengono attirate di una gittata verso l'Anomalia. Chi arriva in Mischia subisce 4d8+10 danni energetici.</p></div><div class="sb-feat sb-paura"><p><strong>Nutrirsi</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura: ogni Risonante entro Molto lontano perde 2 Speranza, e l'Anomalia scarica 1 PF per ogni Speranza persa così.</p></div></div>
+</article>
+<article class="statblock">
+  <header class="sb-head"><h3 id="madre-pozzo-in-guerra">Madre-Pozzo in guerra</h3><span class="sb-tier">Grado 4 · Capo</span></header>
+  <p class="sb-desc">Una Madre-Pozzo Kheprani lunga venti metri, uscita dal nido per la prima volta in tre secoli. L&#x27;odore della guerra la precede.</p>
+  <p class="sb-motivi"><strong>Motivazioni e tattiche:</strong> Difendere il nido, comandare lo sciame, non dimenticare</p><dl class="sb-stats"><div><dt>Difficoltà</dt><dd>20</dd></div><div><dt>Soglie</dt><dd>35/60</dd></div><div><dt>PF</dt><dd>10</dd></div><div><dt>Stress</dt><dd>6</dd></div><div><dt>Attacco</dt><dd>+4</dd></div></dl><p class="sb-atk"><strong>Mandibole:</strong> Molto vicino · 4d10+12 fis</p><p class="sb-esp"><strong>Esperienza:</strong> Il Nido non dimentica +4</p>
+  <div class="sb-feats"><div class="sb-feat sb-azione"><p><strong>Odore di nido</strong> <span class="sb-kind">Azione</span></p><p>Quando dai i riflettori alla Madre-Pozzo, segna 1 Stress per darli a tutti i Kheprani entro Molto lontano.</p></div><div class="sb-feat sb-paura"><p><strong>Figli della guerra</strong> <span class="sb-kind">Paura</span></p><p>Spendi 1 Paura: compaiono tre Guerrieri Kheprani (adattati al grado 4) a distanza Vicino.</p></div><div class="sb-feat sb-passivo"><p><strong>Carapace antico (8)</strong> <span class="sb-kind">Passivo</span></p><p>Quando la Madre-Pozzo subisce danno fisico, riducilo di 8.</p></div><div class="sb-feat sb-reazione"><p><strong>Memoria dei tunnel</strong> <span class="sb-kind">Reazione</span></p><p>Quando un personaggio infligge danno a un Kheprani entro Lontano, la Madre-Pozzo lo ricorda: fino alla fine della scena ha vantaggio negli attacchi contro di lui.</p></div></div>
+</article></div>
+    </div>
+    <nav class="doc-pager" aria-label="Pagine"><a href="../gm/guida.html">← Condurre il gioco</a><a href="../gm/ambienti.html">Ambienti →</a></nav>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <p class="compat">Daggerheart™ Compatible. Terms at Daggerheart.com</p>
+  <p>Include materiale dal Daggerheart System Reference Document 2.0, © Critical Role, LLC, secondo la <a href="https://darringtonpress.com/license/">Darrington Press Community Gaming License</a>. Spaceheart non è affiliato a Darrington Press né a Critical Role. <a href="../licenza.html">Attribuzioni complete</a>.</p>
+</footer>
+
+<script src="../js/toc.js"></script>
+</body>
+</html>

@@ -15,6 +15,7 @@ Sito statico in HTML, CSS e JavaScript, senza compilazione, come l'atlante. GitH
 | `personaggio/` | Creazione, Origini, Provenienze, equipaggiamento |
 | `classi/` | Classi e sottoclassi |
 | `domini/` | Domini e carte dominio (`<article class="dcard dcard-abilita|protocollo|suite|potere">`) |
+| `gm/` | Guida del GM, avversari e ambienti (`<article class="statblock">`), nave, cornice di campagna |
 | `progetto/` | Visione, glossario, tabella di marcia |
 | `licenza.html` | Attribuzioni DPCGL |
 | `css/spaceheart.css` | Stile unico, con gli stessi token `--hz-*` dell'atlante |

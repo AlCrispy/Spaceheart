@@ -390,3 +390,39 @@ a.card:hover { border-color: var(--hz-cyan); transform: translateY(-3px); backgr
 /* Griglia di schede dentro una pagina documento */
 .prose .card-grid.inline { padding: 0; margin-bottom: 24px; max-width: none; }
 .prose .card-grid.inline .card-name { font-size: 0.8rem; }
+
+/* ── SCHEDE DI AVVERSARI E AMBIENTI ───────────────────── */
+.statblocks { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 18px; margin-bottom: 28px; }
+.statblock {
+  background: linear-gradient(180deg, var(--hz-panel-lt), var(--hz-panel));
+  border: 1px solid var(--hz-steel); border-top: 3px solid var(--sh-fear);
+  padding: 16px 18px; font-size: 0.88rem; line-height: 1.55;
+}
+.statblock.env { border-top-color: var(--hz-amber); }
+.sb-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 12px; margin-bottom: 6px; }
+.prose .statblock h3 {
+  font-family: 'Orbitron', sans-serif; font-size: 0.9rem; letter-spacing: 0.05em; text-transform: none;
+  color: var(--hz-bone); margin: 0;
+}
+.sb-tier { font-family: 'Orbitron', sans-serif; font-size: 0.52rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--sh-fear); }
+.statblock.env .sb-tier { color: var(--hz-amber); }
+.prose .sb-desc { color: var(--hz-ash); font-style: italic; margin-bottom: 10px; }
+.prose .statblock p { margin-bottom: 8px; }
+.prose .sb-stats {
+  display: flex; flex-wrap: wrap; gap: 0; margin: 0 0 10px;
+  border: 1px solid var(--hz-steel-dk);
+}
+.prose .sb-stats div { flex: 1 1 auto; padding: 6px 10px; border-right: 1px solid var(--hz-steel-dk); text-align: center; }
+.prose .sb-stats div:last-child { border-right: none; }
+.prose .sb-stats dt { font-family: 'Orbitron', sans-serif; font-size: 0.48rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--hz-cyan); margin: 0; font-weight: 400; }
+.prose .sb-stats dd { border: none; padding: 0; margin: 0; font-weight: 700; color: #fff; }
+.sb-feats { border-top: 1px solid var(--hz-steel-dk); padding-top: 10px; }
+.sb-feat { margin-bottom: 10px; }
+.sb-feat > :last-child { margin-bottom: 0 !important; }
+.sb-kind {
+  font-family: 'Orbitron', sans-serif; font-size: 0.48rem; letter-spacing: 0.15em; text-transform: uppercase;
+  color: var(--hz-ash); border: 1px solid var(--hz-steel); padding: 1px 6px; margin-left: 4px; vertical-align: middle;
+}
+.sb-paura .sb-kind { color: var(--sh-fear); border-color: currentColor; }
+.prose .sb-q { color: var(--hz-ash); font-style: italic; font-size: 0.85em; }
+.prose .statblock ul { padding-left: 18px; margin-bottom: 8px; }
