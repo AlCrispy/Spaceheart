@@ -3,20 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Domini e carte — Spaceheart</title>
-<meta name="description" content="I domini sono le raccolte di carte da cui ogni classe sceglie le proprie capacità.">
+<title>I domini — Nindō</title>
+<meta name="description" content="Nature, Arti e Sangue: le tecniche che un ninja può imparare.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/spaceheart.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/nindo.css">
 </head>
 <body>
 
 <header class="topbar">
-  <a class="back-btn" href="../index.html">← <span>Spaceheart</span></a>
-  <span class="topbar-title">Domini e carte</span>
+  <a class="back-btn" href="../index.html">Nindō <span class="kanji">忍道</span></a>
+  <span class="topbar-title">I domini</span>
   <nav class="topnav" aria-label="Sezioni">
     <a href="../regole/base.html">Regole</a>
-    <a href="../personaggio/creazione.html">Personaggio</a>
+    <a href="../personaggio/creazione.html">Ninja</a>
     <a href="../classi/index.html">Classi</a>
     <a href="../domini/index.html" aria-current="page">Domini</a>
     <a href="../gm/guida.html">GM</a>
@@ -33,75 +34,70 @@
 
   <article class="doc-body">
     <header class="doc-header">
-      <p class="eyebrow">Domini</p>
-      <h1>Domini e carte</h1>
-      <p class="lead">I domini sono le raccolte di carte da cui ogni classe sceglie le proprie capacità.</p>
+      <p class="eyebrow">Domini · 135 carte</p>
+      <h1>I domini</h1>
+      <p class="lead">Nature, Arti e Sangue: le tecniche che un ninja può imparare, scelte liberamente.</p>
     </header>
 
     <div class="prose">
-<h2 id="come-funzionano-i-domini">Come funzionano i domini<a class="headerlink" href="#come-funzionano-i-domini" title="Permanent link">#</a></h2>
-<p>Ci sono <strong>dieci domini</strong>. Ogni classe ha accesso a <strong>due</strong>. Alla creazione del personaggio scegli due carte di livello 1 dai tuoi domini; a ogni livello ne prendi una nuova di livello pari o inferiore al tuo. Puoi tenere attive al massimo <strong>5 carte</strong> (la <em>dotazione</em>); le altre stanno nell'<em>archivio</em>. Le regole complete sono nelle <a href="../regole/base.html#carte-dominio">regole base</a>.</p>
-<h2 id="come-si-legge-una-carta">Come si legge una carta<a class="headerlink" href="#come-si-legge-una-carta" title="Permanent link">#</a></h2>
-<ul>
-<li><strong>Livello</strong> (in alto a sinistra): non puoi prendere carte di livello superiore al tuo.</li>
-<li><strong>Dominio e tipo</strong>: il dominio da cui viene e il tipo di carta.</li>
-<li><strong>Costo di richiamo</strong> (⚡): lo Stress da segnare per portare la carta dall'archivio alla dotazione fuori da una sosta.</li>
-<li><strong>Nome ed effetto.</strong></li>
-</ul>
-<h3 id="tipi-di-carta">Tipi di carta<a class="headerlink" href="#tipi-di-carta" title="Permanent link">#</a></h3>
-<div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Cosa rappresenta</th>
-<th>Tiro</th>
-</tr>
-</thead>
+<h2 id="domini-liberi">Domini liberi<a class="headerlink" href="#domini-liberi" title="Link permanente">#</a></h2>
+<p>In Nindō i domini <strong>non sono legati alla classe</strong>. Ogni ninja inizia con l'accesso a tre domini:</p>
+<ol>
+<li>una <strong>Natura</strong> del chakra, la sua affinità;</li>
+<li>un'<strong>Arte</strong>, la disciplina in cui si è addestrato;</li>
+<li>il dominio di <strong>Sangue</strong> del suo <a href="../personaggio/retaggi.html">Retaggio</a>.</li>
+</ol>
+<p>Altre Nature e Arti si aprono salendo di livello, con l'avanzamento <em>Nuovo dominio</em> (vedi le <a href="../regole/base.html#2-avanzamenti">regole base</a>).</p>
+<h2 id="tipi-di-carta">Tipi di carta<a class="headerlink" href="#tipi-di-carta" title="Link permanente">#</a></h2><div class="table-wrap"><table>
+<thead><tr><th>Tipo</th><th>Cosa rappresenta</th><th>Nella SRD</th></tr></thead>
 <tbody>
-<tr>
-<td><span class="type-chip abilita">Abilità</span></td>
-<td>Addestramento, talento, tecnica senza nulla di soprannaturale</td>
-<td>Tiri di tratto, quando servono</td>
-</tr>
-<tr>
-<td><span class="type-chip protocollo">Protocollo</span></td>
-<td>Dispositivi, programmi, droni, biotecnologie</td>
-<td>Tiro di Focus</td>
-</tr>
-<tr>
-<td><span class="type-chip suite">Suite</span></td>
-<td>Una raccolta di piccoli protocolli su una sola carta (solo Codice)</td>
-<td>Tiro di Focus</td>
-</tr>
-<tr>
-<td><span class="type-chip potere">Potere</span></td>
-<td>Effetti di Risonanza: gravità, campi, mente</td>
-<td>Tiro di Focus, con rischio di <a href="../regole/base.html#eco">Eco</a></td>
-</tr>
+<tr><td><span class="type-chip abilita">Abilità</span></td><td>Addestramento e tecniche che non richiedono un Tiro di Jutsu</td><td>Abilità</td></tr>
+<tr><td><span class="type-chip jutsu">Jutsu</span></td><td>Tecniche di chakra attivate con il Tiro di Jutsu</td><td>Incantesimo</td></tr>
+<tr><td><span class="type-chip rotolo">Rotolo</span></td><td>Più tecniche minori raccolte su una sola carta</td><td>Grimorio</td></tr>
 </tbody>
 </table></div>
-<p>Tutte le regole che valgono per i Protocolli valgono anche per i Poteri, e viceversa, salvo l'Eco.</p>
-<h2 id="i-domini">I domini<a class="headerlink" href="#i-domini" title="Link permanente">#</a></h2>
-<div class="card-grid inline">
-<a class="card" href="balistica.html"><span class="card-tag">Abilità</span><span class="card-name">◎ Balistica</span><span class="card-desc">La Balistica è il dominio della maestria con le armi: la pistola che non trema, il fucile che non manca, la lama che arriva prima del pensiero. Chi segue questa via ha fatto delle armi un mestiere, e della propria sopravvivenza una disciplina.</span></a>
-<a class="card" href="corpo.html"><span class="card-tag">Abilità</span><span class="card-name">✦ Corpo</span><span class="card-desc">Il Corpo è il dominio della tattica e del fisico: riflessi, equilibrio, resistenza, la capacità di leggere il movimento di un avversario prima che accada. Chi lo pratica conosce il proprio corpo come uno strumento, in gravità piena come nel vuoto.</span></a>
-<a class="card" href="egida.html"><span class="card-tag">Abilità</span><span class="card-name">⬡ Egida</span><span class="card-desc">L'Egida è il dominio della protezione: scudi, coperture, corpi messi tra il pericolo e chi non può difendersi. Chi la sceglie sa che la battaglia si vince anche restando in piedi, e che ogni colpo parato è un compagno salvato.</span></a>
-<a class="card" href="codice.html"><span class="card-tag">Abilità · Protocollo · Suite</span><span class="card-name">⌬ Codice</span><span class="card-desc">Il Codice è il dominio dei sistemi: programmi, droni, nanomacchine, interfacce, reti. Chi lo padroneggia porta con sé delle Suite, raccolte di piccoli protocolli pronti all'uso, e sa che nella Frontiera quasi tutto ha un'interfaccia, se si sa dove cercarla.</span></a>
-<a class="card" href="vita.html"><span class="card-tag">Abilità · Protocollo</span><span class="card-name">✚ Vita</span><span class="card-desc">La Vita è il dominio della medicina e della biotecnologia: rimettere in piedi i feriti, rianimare chi sembra perduto, capire corpi che nessun manuale descrive. Chi lo segue sa curare, e sa anche quanto poco serve per fermare un cuore.</span></a>
-<a class="card" href="frontiera.html"><span class="card-tag">Abilità · Protocollo</span><span class="card-name">❦ Frontiera</span><span class="card-desc">La Frontiera è il dominio della natura aliena: sopravvivere dove nessuno è mai stato, leggere le tracce di creature senza nome, usare le biotecnologie Ythar e Quorai, trasformare un mondo ostile in un alleato. Chi lo pratica sa che nella Frontiera l'ambiente è sempre il primo avversario.</span></a>
-<a class="card" href="voce.html"><span class="card-tag">Abilità · Protocollo</span><span class="card-name">❝ Voce</span><span class="card-desc">La Voce è il dominio del carisma e della parola: convincere, ingannare, comandare, trovare le parole giuste in una lingua che non ha parole. Chi la usa sa che nella Frontiera un buon discorso ha fermato più guerre di qualsiasi flotta, e ne ha iniziate altrettante.</span></a>
-<a class="card" href="ombra.html"><span class="card-tag">Abilità · Protocollo</span><span class="card-name">◐ Ombra</span><span class="card-desc">L'Ombra è il dominio della segretezza: infiltrarsi, nascondersi, rubare, sparire. Chi la padroneggia si muove tra i condotti di una stazione come in casa propria, porta più facce che documenti, e sa che il colpo migliore è quello che nessuno vede arrivare.</span></a>
-<a class="card" href="gravita.html"><span class="card-tag">Abilità · Potere</span><span class="card-name">◉ Gravità</span><span class="card-desc">La Gravità è il dominio della Risonanza fisica: peso, spinta, inerzia, campi magnetici, piccole pieghe dello spazio. Le sue carte sono Poteri, e chi le usa rischia sempre un'Eco. È un potere istintivo e instabile, fortissimo quando viene controllato.</span></a>
-<a class="card" href="psiche.html"><span class="card-tag">Abilità · Potere</span><span class="card-name">◈ Psiche</span><span class="card-desc">La Psiche è il dominio della Risonanza mentale: sentire le coscienze altrui, entrare nei pensieri, piegare la volontà, evocare la paura. Le sue carte sono Poteri e chi le usa rischia sempre un'Eco. Nella Frontiera pochi temono qualcosa quanto un Risonante che ti guarda negli occhi.</span></a>
+<h2 id="nature">Nature<a class="headerlink" href="#nature" title="Link permanente">#</a></h2>
+<p>Le cinque nature fondamentali del chakra.</p>
+<div class="card-grid inline"><a class="card" href="fuoco.html"><span class="card-tag">火遁 Katon</span><span class="card-name">Fuoco</span><span class="card-desc">Katon: potenza, aree, pressione.</span></a><a class="card" href="vento.html"><span class="card-tag">風遁 Fūton</span><span class="card-name">Vento</span><span class="card-desc">Fūton: lame d'aria, velocità, spinta.</span></a><a class="card" href="fulmine.html"><span class="card-tag">雷遁 Raiton</span><span class="card-name">Fulmine</span><span class="card-desc">Raiton: perforazione, paralisi, riflessi.</span></a><a class="card" href="terra.html"><span class="card-tag">土遁 Doton</span><span class="card-name">Terra</span><span class="card-desc">Doton: muri, difesa, terreno.</span></a><a class="card" href="acqua.html"><span class="card-tag">水遁 Suiton</span><span class="card-name">Acqua</span><span class="card-desc">Suiton: controllo, prigioni, onde.</span></a></div>
+<h2 id="arti">Arti<a class="headerlink" href="#arti" title="Link permanente">#</a></h2>
+<p>Discipline che si imparano con l'addestramento.</p>
+<div class="card-grid inline"><a class="card" href="taijutsu.html"><span class="card-tag">体術</span><span class="card-name">Taijutsu</span><span class="card-desc">Corpo, velocità, colpi senza chakra.</span></a><a class="card" href="genjutsu.html"><span class="card-tag">幻術</span><span class="card-name">Genjutsu</span><span class="card-desc">Illusioni, paura, inganno dei sensi.</span></a><a class="card" href="medicina.html"><span class="card-tag">医療忍術</span><span class="card-name">Medicina</span><span class="card-desc">Cura, veleni, anatomia.</span></a><a class="card" href="strumenti.html"><span class="card-tag">忍具</span><span class="card-name">Strumenti</span><span class="card-desc">Kunai, shuriken, fili, carte bomba.</span></a></div>
+<h2 id="sangue">Sangue<a class="headerlink" href="#sangue" title="Link permanente">#</a></h2>
+<p>Un dominio per ogni Retaggio, aperto solo a chi lo porta nel sangue.</p>
+<div class="card-grid inline"><a class="card" href="sharingan.html"><span class="card-tag">写輪眼</span><span class="card-name">Sharingan</span><span class="card-desc">Leggere, copiare, ingannare.</span></a><a class="card" href="byakugan.html"><span class="card-tag">白眼</span><span class="card-name">Byakugan</span><span class="card-desc">Vedere tutto, Pugno Gentile.</span></a><a class="card" href="ghiaccio.html"><span class="card-tag">氷遁 Hyōton</span><span class="card-name">Ghiaccio</span><span class="card-desc">Hyōton: specchi, aghi, gelo.</span></a><a class="card" href="lava.html"><span class="card-tag">熔遁 Yōton</span><span class="card-name">Lava</span><span class="card-desc">Yōton: fusione, corrosione, calore.</span></a><a class="card" href="ombra.html"><span class="card-tag">影真似</span><span class="card-name">Ombra</span><span class="card-desc">Hiden dei Nara: legare e strategia.</span></a><a class="card" href="ossa.html"><span class="card-tag">屍骨脈</span><span class="card-name">Ossa</span><span class="card-desc">Shikotsumyaku: armi e armature d'osso.</span></a></div>
+<div class="table-wrap"><table>
+<thead><tr><th>Dominio</th><th>Famiglia</th><th>Tema</th><th>Modello SRD</th></tr></thead>
+<tbody>
+<tr><td><a href="fuoco.html">Fuoco</a></td><td>Natura</td><td>Katon: potenza, aree, pressione</td><td>Arcana</td></tr>
+<tr><td><a href="vento.html">Vento</a></td><td>Natura</td><td>Fūton: lame d'aria, velocità, spinta</td><td>Midnight</td></tr>
+<tr><td><a href="fulmine.html">Fulmine</a></td><td>Natura</td><td>Raiton: perforazione, paralisi, riflessi</td><td>Arcana</td></tr>
+<tr><td><a href="terra.html">Terra</a></td><td>Natura</td><td>Doton: muri, difesa, terreno</td><td>Valor</td></tr>
+<tr><td><a href="acqua.html">Acqua</a></td><td>Natura</td><td>Suiton: controllo, prigioni, onde</td><td>Sage</td></tr>
+<tr><td><a href="taijutsu.html">Taijutsu</a></td><td>Arte</td><td>Corpo, velocità, colpi senza chakra</td><td>Bone</td></tr>
+<tr><td><a href="genjutsu.html">Genjutsu</a></td><td>Arte</td><td>Illusioni, paura, inganno dei sensi</td><td>Grace</td></tr>
+<tr><td><a href="medicina.html">Medicina</a></td><td>Arte</td><td>Cura, veleni, anatomia</td><td>Splendor</td></tr>
+<tr><td><a href="strumenti.html">Strumenti</a></td><td>Arte</td><td>Kunai, shuriken, fili, carte bomba</td><td>Blade</td></tr>
+<tr><td><a href="sharingan.html">Sharingan</a></td><td>Sangue</td><td>Leggere, copiare, ingannare</td><td>Midnight</td></tr>
+<tr><td><a href="byakugan.html">Byakugan</a></td><td>Sangue</td><td>Vedere tutto, Pugno Gentile</td><td>Bone</td></tr>
+<tr><td><a href="ghiaccio.html">Ghiaccio</a></td><td>Sangue</td><td>Hyōton: specchi, aghi, gelo</td><td>Arcana</td></tr>
+<tr><td><a href="lava.html">Lava</a></td><td>Sangue</td><td>Yōton: fusione, corrosione, calore</td><td>Arcana</td></tr>
+<tr><td><a href="ombra.html">Ombra</a></td><td>Sangue</td><td>Hiden dei Nara: legare e strategia</td><td>Midnight</td></tr>
+<tr><td><a href="ossa.html">Ossa</a></td><td>Sangue</td><td>Shikotsumyaku: armi e armature d'osso</td><td>Blade</td></tr>
+</tbody>
+</table></div>
+<div class="callout nota">
+<p class="callout-title">Prima versione</p>
+<p>15 domini, 135 carte, livelli 1–4. Le Arti dei Sigilli e dell'Evocazione, i domini di Sangue degli altri Retaggi e le carte dei livelli 5–10 sono nella <a href="../progetto/roadmap.html">tabella di marcia</a>.</p>
 </div>
     </div>
-    <nav class="doc-pager" aria-label="Pagine"><a href="../classi/veggente.html">← Veggente</a><a href="../domini/balistica.html">Balistica →</a></nav>
+    <nav class="doc-pager" aria-label="Pagine"><a href="../classi/index.html">← Le classi</a><a href="../domini/fuoco.html">Fuoco →</a></nav>
   </article>
 </main>
 
 <footer class="site-footer">
   <p class="compat">Daggerheart™ Compatible. Terms at Daggerheart.com</p>
-  <p>Include materiale dal Daggerheart System Reference Document 2.0, © Critical Role, LLC, secondo la <a href="https://darringtonpress.com/license/">Darrington Press Community Gaming License</a>. Spaceheart non è affiliato a Darrington Press né a Critical Role. <a href="../licenza.html">Attribuzioni complete</a>.</p>
+  <p>Include materiale dal Daggerheart System Reference Document 2.0, © Critical Role, LLC, secondo la <a href="https://darringtonpress.com/license/">Darrington Press Community Gaming License</a>. Nindō non è affiliato a Darrington Press né a Critical Role.</p>
+  <p>Nindō è un fan-hack gratuito e non ufficiale. <em>Naruto</em> e tutti i nomi, personaggi e tecniche collegati sono © Masashi Kishimoto / Shueisha; questo sito non è affiliato né approvato dai titolari dei diritti e non è in vendita. <a href="../licenza.html">Attribuzioni complete</a>.</p>
 </footer>
 
 <script src="../js/toc.js"></script>

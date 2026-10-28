@@ -3,20 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Le classi — Spaceheart</title>
-<meta name="description" content="Le quattordici classi di Spaceheart, dal Soldato al Veggente.">
+<title>Le classi — Nindō</title>
+<meta name="description" content="Cinque stili di combattimento ninja, ciascuno con due sottoclassi.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/spaceheart.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/nindo.css">
 </head>
 <body>
 
 <header class="topbar">
-  <a class="back-btn" href="../index.html">← <span>Spaceheart</span></a>
+  <a class="back-btn" href="../index.html">Nindō <span class="kanji">忍道</span></a>
   <span class="topbar-title">Le classi</span>
   <nav class="topnav" aria-label="Sezioni">
     <a href="../regole/base.html">Regole</a>
-    <a href="../personaggio/creazione.html">Personaggio</a>
+    <a href="../personaggio/creazione.html">Ninja</a>
     <a href="../classi/index.html" aria-current="page">Classi</a>
     <a href="../domini/index.html">Domini</a>
     <a href="../gm/guida.html">GM</a>
@@ -33,157 +34,38 @@
 
   <article class="doc-body">
     <header class="doc-header">
-      <p class="eyebrow">Classi</p>
+      <p class="eyebrow">Classi · 5</p>
       <h1>Le classi</h1>
-      <p class="lead">Le quattordici classi di Spaceheart, dal Soldato al Veggente.</p>
+      <p class="lead">Cinque stili di combattimento ninja, ciascuno con due sottoclassi.</p>
     </header>
 
     <div class="prose">
-<h2 id="scegliere-una-classe">Scegliere una classe<a class="headerlink" href="#scegliere-una-classe" title="Permanent link">#</a></h2>
-<p>La classe è il ruolo del personaggio nel gruppo. Stabilisce i <strong>due domini</strong> da cui prenderà le carte, l'<strong>Evasione</strong> e i <strong>PF</strong> iniziali, gli <strong>oggetti di classe</strong>, i <strong>privilegi di classe</strong> e il <strong>privilegio di Speranza</strong> (che costa sempre 3 Speranza). Ogni classe ha <strong>due sottoclassi</strong>: alla creazione prendi il <strong>Fondamento</strong> della sottoclasse scelta; la <strong>Specializzazione</strong> e la <strong>Maestria</strong> si ottengono salendo di livello.</p>
-<h2 id="le-quattordici-classi">Le quattordici classi<a class="headerlink" href="#le-quattordici-classi" title="Permanent link">#</a></h2>
+<h2 id="le-classi">Le classi di Nindō<a class="headerlink" href="#le-classi" title="Link permanente">#</a></h2>
+<p>La classe è il tuo <strong>stile di combattimento</strong>: decide Evasione, PF, privilegi e sottoclassi. A differenza della SRD, <strong>non decide i domini</strong>: ogni ninja sceglie liberamente una Natura e un'Arte, e riceve il dominio di Sangue del proprio Retaggio. Due Specialisti di Ninjutsu possono quindi essere diversissimi: uno di Fuoco con lo Sharingan, l'altro d'Acqua con il Ghiaccio.</p>
+<p>Ogni classe prende a modello una classe della SRD, di cui mantiene Evasione e PF per conservarne l'equilibrio.</p>
+<div class="card-grid inline"><a class="card" href="taijutsu.html"><span class="card-tag">Prima linea, corpo a corpo</span><span class="card-name">Specialista di Taijutsu</span><span class="card-desc">Lo Specialista di Taijutsu ha fatto del proprio corpo un'arma.</span></a><a class="card" href="ninjutsu.html"><span class="card-tag">Danno e controllo con le nature</span><span class="card-name">Specialista di Ninjutsu</span><span class="card-desc">Lo Specialista di Ninjutsu ha un chakra abbondante e la pazienza di domarlo.</span></a><a class="card" href="genjutsu.html"><span class="card-tag">Illusioni, inganno, controllo mentale</span><span class="card-name">Specialista di Genjutsu</span><span class="card-desc">Lo Specialista di Genjutsu non combatte il corpo del nemico, ma i suoi sensi.</span></a><a class="card" href="ninja-medico.html"><span class="card-tag">Cura, supporto, forza controllata</span><span class="card-name">Ninja Medico</span><span class="card-desc">Il Ninja Medico è la ragione per cui una squadra torna a casa.</span></a><a class="card" href="maestro-darmi.html"><span class="card-tag">Armi, strumenti, colpi a distanza</span><span class="card-name">Maestro d'Armi</span><span class="card-desc">Il Maestro d'Armi non ha bisogno di un Kekkei Genkai spettacolare per essere pericoloso.</span></a></div>
 <div class="table-wrap"><table>
-<thead>
-<tr>
-<th>Classe</th>
-<th>Domini</th>
-<th>Ev.</th>
-<th>PF</th>
-<th>Sottoclassi</th>
-<th>Tratto di Focus</th>
-</tr>
-</thead>
+<thead><tr><th>Classe</th><th>Ruolo</th><th>Ev.</th><th>PF</th><th>Sottoclassi (Tratto di Jutsu)</th><th>Modello SRD</th></tr></thead>
 <tbody>
-<tr>
-<td><a href="soldato.html">Soldato</a></td>
-<td>Balistica · Corpo</td>
-<td>11</td>
-<td>6</td>
-<td>Veterano · Tiratore Scelto</td>
-<td>—</td>
-</tr>
-<tr>
-<td><a href="sentinella.html">Sentinella</a></td>
-<td>Balistica · Egida</td>
-<td>9</td>
-<td>7</td>
-<td>Baluardo · Vendicatore</td>
-<td>—</td>
-</tr>
-<tr>
-<td><a href="cacciatore.html">Cacciatore di Taglie</a></td>
-<td>Balistica · Ombra</td>
-<td>12</td>
-<td>5</td>
-<td>Esecutore · Tossicologo</td>
-<td>Agilità · Ingegno</td>
-</tr>
-<tr>
-<td><a href="esploratore.html">Esploratore</a></td>
-<td>Corpo · Frontiera</td>
-<td>12</td>
-<td>6</td>
-<td>Compagno Alieno · Apripista</td>
-<td>Agilità</td>
-</tr>
-<tr>
-<td><a href="lottatore.html">Lottatore</a></td>
-<td>Egida · Corpo</td>
-<td>10</td>
-<td>6</td>
-<td>Colosso · Maestro di Stili</td>
-<td>— · Istinto</td>
-</tr>
-<tr>
-<td><a href="contrabbandiere.html">Contrabbandiere</a></td>
-<td>Voce · Ombra</td>
-<td>12</td>
-<td>6</td>
-<td>Fantasma · Sindacato</td>
-<td>Precisione · Presenza</td>
-</tr>
-<tr>
-<td><a href="emissario.html">Emissario</a></td>
-<td>Voce · Codice</td>
-<td>10</td>
-<td>5</td>
-<td>Tribuno · Ambasciatore</td>
-<td>Presenza</td>
-</tr>
-<tr>
-<td><a href="ingegnere.html">Ingegnere</a></td>
-<td>Codice · Egida</td>
-<td>10</td>
-<td>6</td>
-<td>Dronista · Esoscheletro</td>
-<td>Ingegno · Forza</td>
-</tr>
-<tr>
-<td><a href="medico.html">Medico</a></td>
-<td>Vita · Egida</td>
-<td>9</td>
-<td>7</td>
-<td>Chirurgo da Campo · Soccorritore</td>
-<td>Ingegno · Forza</td>
-</tr>
-<tr>
-<td><a href="scienziato.html">Scienziato</a></td>
-<td>Codice · Vita</td>
-<td>11</td>
-<td>5</td>
-<td>Teorico · Sperimentatore</td>
-<td>Ingegno</td>
-</tr>
-<tr>
-<td><a href="cavaliere-risonante.html">Cavaliere Risonante</a></td>
-<td>Gravità · Corpo</td>
-<td>10</td>
-<td>6</td>
-<td>Custode dell'Equilibrio · Lama del Campo</td>
-<td>Istinto · Agilità</td>
-</tr>
-<tr>
-<td><a href="navigatore.html">Navigatore</a></td>
-<td>Gravità · Ombra</td>
-<td>10</td>
-<td>6</td>
-<td>Tempesta Magnetica · Pieghevie</td>
-<td>Istinto</td>
-</tr>
-<tr>
-<td><a href="telepate.html">Telepate</a></td>
-<td>Psiche · Voce</td>
-<td>11</td>
-<td>5</td>
-<td>Voce Interiore · Inquisitore</td>
-<td>Presenza</td>
-</tr>
-<tr>
-<td><a href="veggente.html">Veggente</a></td>
-<td>Psiche · Frontiera</td>
-<td>10</td>
-<td>6</td>
-<td>Nodo del Coro · Ascoltatore</td>
-<td>Ingegno · Istinto</td>
-</tr>
+<tr><td><a href="taijutsu.html">Specialista di Taijutsu</a></td><td>Prima linea, corpo a corpo</td><td>10</td><td>6</td><td>Via delle Porte (Forza) · Maestro di Stile (Agilità)</td><td>Brawler</td></tr>
+<tr><td><a href="ninjutsu.html">Specialista di Ninjutsu</a></td><td>Danno e controllo con le nature</td><td>10</td><td>6</td><td>Furia Elementale (Istinto) · Tessitore di Sigilli (Ingegno)</td><td>Sorcerer</td></tr>
+<tr><td><a href="genjutsu.html">Specialista di Genjutsu</a></td><td>Illusioni, inganno, controllo mentale</td><td>11</td><td>5</td><td>Incubo (Presenza) · Miraggio (Ingegno)</td><td>Wizard</td></tr>
+<tr><td><a href="ninja-medico.html">Ninja Medico</a></td><td>Cura, supporto, forza controllata</td><td>9</td><td>7</td><td>Guaritore di Campo (Ingegno) · Pugno Medico (Forza)</td><td>Seraph</td></tr>
+<tr><td><a href="maestro-darmi.html">Maestro d'Armi</a></td><td>Armi, strumenti, colpi a distanza</td><td>11</td><td>6</td><td>Arsenale (Precisione) · Lama (Agilità)</td><td>Warrior</td></tr>
 </tbody>
-</table></div>
-<div class="callout nota">
-<p class="callout-title">Classi senza Tratto di Focus</p>
-<p>Soldato, Sentinella e il Lottatore Colosso non hanno un Tratto di Focus: i loro domini contengono quasi solo Abilità. Se prendono carte Protocollo o Potere (per esempio con la multiclasse), usano il Tratto di Focus della sottoclasse della multiclasse.</p>
-</div>
-<div class="callout attenzione">
-<p class="callout-title">Risonanti</p>
-<p>Cavaliere Risonante, Navigatore, Telepate e Veggente usano carte <strong>Potere</strong>, e quindi sono soggetti all'<a href="../regole/base.html#eco">Eco</a>. Parlatene in sessione zero: un Risonante nel gruppo attira attenzioni.</p>
+</table></div><div class="callout nota">
+<p class="callout-title">Prima versione</p>
+<p>Ci sono cinque classi, fino al livello 4. Sensore, Maestro di Sigilli, Evocatore, Marionettista e Ombra (ANBU) sono nella <a href="../progetto/roadmap.html">tabella di marcia</a>.</p>
 </div>
     </div>
-    <nav class="doc-pager" aria-label="Pagine"><a href="../personaggio/equipaggiamento.html">← Equipaggiamento</a><a href="../classi/soldato.html">Soldato →</a></nav>
+    <nav class="doc-pager" aria-label="Pagine"><a href="../personaggio/equipaggiamento.html">← Equipaggiamento</a><a href="../classi/taijutsu.html">Specialista di Taijutsu →</a></nav>
   </article>
 </main>
 
 <footer class="site-footer">
   <p class="compat">Daggerheart™ Compatible. Terms at Daggerheart.com</p>
-  <p>Include materiale dal Daggerheart System Reference Document 2.0, © Critical Role, LLC, secondo la <a href="https://darringtonpress.com/license/">Darrington Press Community Gaming License</a>. Spaceheart non è affiliato a Darrington Press né a Critical Role. <a href="../licenza.html">Attribuzioni complete</a>.</p>
+  <p>Include materiale dal Daggerheart System Reference Document 2.0, © Critical Role, LLC, secondo la <a href="https://darringtonpress.com/license/">Darrington Press Community Gaming License</a>. Nindō non è affiliato a Darrington Press né a Critical Role.</p>
+  <p>Nindō è un fan-hack gratuito e non ufficiale. <em>Naruto</em> e tutti i nomi, personaggi e tecniche collegati sono © Masashi Kishimoto / Shueisha; questo sito non è affiliato né approvato dai titolari dei diritti e non è in vendita. <a href="../licenza.html">Attribuzioni complete</a>.</p>
 </footer>
 
 <script src="../js/toc.js"></script>

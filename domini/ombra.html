@@ -3,20 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ombra — Spaceheart</title>
-<meta name="description" content="L&#x27;Ombra è il dominio della segretezza: infiltrarsi, nascondersi, rubare, sparire.">
+<title>Ombra — Nindō</title>
+<meta name="description" content="L&#x27;Ombra è la tecnica segreta dei Nara: allungare la propria ombra, legarla a quella del nemico e costringerlo a muoversi come te. Funziona solo se pensi prima di agire, e i Nara pensano sempre.">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/spaceheart.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/nindo.css">
 </head>
 <body>
 
 <header class="topbar">
-  <a class="back-btn" href="../index.html">← <span>Spaceheart</span></a>
+  <a class="back-btn" href="../index.html">Nindō <span class="kanji">忍道</span></a>
   <span class="topbar-title">Ombra</span>
   <nav class="topnav" aria-label="Sezioni">
     <a href="../regole/base.html">Regole</a>
-    <a href="../personaggio/creazione.html">Personaggio</a>
+    <a href="../personaggio/creazione.html">Ninja</a>
     <a href="../classi/index.html">Classi</a>
     <a href="../domini/index.html" aria-current="page">Domini</a>
     <a href="../gm/guida.html">GM</a>
@@ -33,167 +34,82 @@
 
   <article class="doc-body">
     <header class="doc-header">
-      <p class="eyebrow">Dominio · Livelli 1–10</p>
+      <p class="eyebrow">Sangue · 影真似</p>
       <h1>Ombra</h1>
-      <p class="lead">L'Ombra è il dominio della segretezza: infiltrarsi, nascondersi, rubare, sparire.</p>
+      <p class="lead">Hiden dei Nara: legare e strategia.</p>
     </header>
 
     <div class="prose">
-<p>L'Ombra è il dominio della segretezza: infiltrarsi, nascondersi, rubare, sparire. Chi la padroneggia si muove tra i condotti di una stazione come in casa propria, porta più facce che documenti, e sa che il colpo migliore è quello che nessuno vede arrivare.</p>
-<p><strong>Classi con accesso:</strong> <a href="../classi/cacciatore.html">Cacciatore di Taglie</a>, <a href="../classi/contrabbandiere.html">Contrabbandiere</a>, <a href="../classi/navigatore.html">Navigatore</a>.</p>
+<p>L'Ombra è la tecnica segreta dei Nara: allungare la propria ombra, legarla a quella del nemico e costringerlo a muoversi come te. Funziona solo se pensi prima di agire, e i Nara pensano sempre.</p>
+<p><strong>Accesso:</strong> Ombra è un dominio di <strong>Sangue</strong>: lo ha solo chi ha il Retaggio corrispondente. Vedi il Retaggio <a href="../personaggio/retaggi.html#ombra">Ombra</a>.</p>
+<p class="muted">Modello SRD: Midnight. Prima versione: livelli 1–4.</p>
 <h2 id="livello-1">Livello 1<a class="headerlink" href="#livello-1" title="Link permanente">#</a></h2>
 <div class="dcards">
+<article class="dcard dcard-jutsu">
+  <header class="dcard-head"><span class="dcard-lvl" title="Livello">1</span><span class="dcard-meta">Ombra · Jutsu</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
+  <h3 id="ombra-imitatrice">Ombra imitatrice</h3>
+  <div class="dcard-text"><p>Fai un Tiro di Jutsu contro un bersaglio entro Vicino. Se riesci, è Immobilizzato e imita i tuoi movimenti. L'effetto finisce quando ti muovi, usi un altro jutsu o segni Stress per qualsiasi motivo.</p></div>
+</article>
 <article class="dcard dcard-abilita">
   <header class="dcard-head"><span class="dcard-lvl" title="Livello">1</span><span class="dcard-meta">Ombra · Abilità</span><span class="dcard-recall" title="Costo di richiamo">⚡ 0</span></header>
-  <h3 id="mani-leste">Mani leste</h3>
-  <div class="dcard-text"><p>Hai vantaggio sui tiri d'azione per forzare serrature meccaniche o magnetiche, disattivare trappole e allarmi, o rubare oggetti a un bersaglio, di nascosto o con la forza.</p></div>
+  <h3 id="ombra-lunga">Ombra lunga</h3>
+  <div class="dcard-text"><p>Quando c'è una luce forte dietro di te (sole basso, fuoco, lanterne), le tue carte di Ombra arrivano un passo di gittata più lontano.</p></div>
 </article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">1</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="sciame-di-lame">Sciame di lame</h3>
-  <div class="dcard-text"><p>Spendi 1 Speranza e fai un Tiro di Focus: lanci uno sciame di microlame guidate contro tutti i bersagli entro Molto vicino. Quelli contro cui riesci subiscono d8+2 danni energetici usando la tua Competenza. Un bersaglio Vulnerabile subisce 1d8 danni in più.</p></div>
-</article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">1</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 0</span></header>
-  <h3 id="maschera-olografica">Maschera olografica</h3>
-  <div class="dcard-text"><p>Se hai qualche minuto per prepararti, puoi segnare 1 Stress per assumere l'aspetto di qualsiasi umanoide che riesci a immaginare con chiarezza. Mentre sei travestito hai vantaggio sui tiri di Presenza per non farti scoprire. Metti su questa carta un numero di segnalini pari al tuo Tratto di Focus: ogni volta che compi un'azione da travestito, spendine uno. Dopo l'azione che spende l'ultimo, la maschera si spegne.</p></div>
+<article class="dcard dcard-abilita">
+  <header class="dcard-head"><span class="dcard-lvl" title="Livello">1</span><span class="dcard-meta">Ombra · Abilità</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
+  <h3 id="dieci-mosse-avanti">Dieci mosse avanti</h3>
+  <div class="dcard-text"><p>Una volta per sosta, fai al GM una domanda tattica sulla scena (chi è il più pericoloso, da dove arriveranno, cosa vogliono). Il GM risponde sinceramente.</p></div>
 </article>
 </div>
 <h2 id="livello-2">Livello 2<a class="headerlink" href="#livello-2" title="Link permanente">#</a></h2>
 <div class="dcards">
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">2</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="drone-ombra">Drone ombra</h3>
-  <div class="dcard-text"><p>Spendi 1 Speranza per attivare un drone silenzioso di taglia umana, che può muoversi o trasportare oggetti per te fino alla tua prossima sosta. Puoi anche mandarlo contro un avversario: fai un Tiro di Focus contro un bersaglio entro Molto lontano. Se riesci, il drone raggiunge il bersaglio, tira tanti d6 quanto il tuo Tratto di Focus e infligge altrettanti danni energetici, poi si autodistrugge. Puoi avere un solo drone ombra alla volta.</p></div>
+<article class="dcard dcard-jutsu">
+  <header class="dcard-head"><span class="dcard-lvl" title="Livello">2</span><span class="dcard-meta">Ombra · Jutsu</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
+  <h3 id="ombra-che-stringe">Ombra che stringe</h3>
+  <div class="dcard-text"><p>Fai un Tiro di Jutsu contro un bersaglio Immobilizzato dalla tua Ombra imitatrice. Se riesci, infliggi d8+3 danni da chakra, senza interrompere l'Ombra imitatrice.</p></div>
 </article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">2</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 0</span></header>
-  <h3 id="bolas-magnetiche">Bolas magnetiche</h3>
-  <div class="dcard-text"><p>Fai un Tiro di Focus contro tutti gli avversari entro Molto vicino. Quelli contro cui riesci diventano temporaneamente Immobilizzati.</p></div>
+<article class="dcard dcard-jutsu">
+  <header class="dcard-head"><span class="dcard-lvl" title="Livello">2</span><span class="dcard-meta">Ombra · Jutsu</span><span class="dcard-recall" title="Costo di richiamo">⚡ 2</span></header>
+  <h3 id="ombre-intrecciate">Ombre intrecciate</h3>
+  <div class="dcard-text"><p>Fai un Tiro di Jutsu contro fino a tre bersagli entro Vicino. Chi colpisci è Immobilizzato finché non ti muovi o non segni Stress.</p></div>
 </article>
 </div>
 <h2 id="livello-3">Livello 3<a class="headerlink" href="#livello-3" title="Link permanente">#</a></h2>
 <div class="dcards">
+<article class="dcard dcard-jutsu">
+  <header class="dcard-head"><span class="dcard-lvl" title="Livello">3</span><span class="dcard-meta">Ombra · Jutsu</span><span class="dcard-recall" title="Costo di richiamo">⚡ 2</span></header>
+  <h3 id="aghi-d-ombra">Aghi d'ombra</h3>
+  <div class="dcard-text"><p>Fai un Tiro di Jutsu contro fino a tre bersagli entro Vicino. Chi colpisci subisce d10+2 danni da chakra.</p></div>
+</article>
 <article class="dcard dcard-abilita">
   <header class="dcard-head"><span class="dcard-lvl" title="Livello">3</span><span class="dcard-meta">Ombra · Abilità</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="presa-al-collo">Presa al collo</h3>
-  <div class="dcard-text"><p>Quando ti trovi alle spalle di una creatura più o meno della tua taglia, puoi segnare 1 Stress per bloccarla con una presa al collo: diventa temporaneamente Vulnerabile. Chi attacca un bersaglio Vulnerabile in questo modo infligge 2d6 danni in più.</p></div>
-</article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">3</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="cortina-termica">Cortina termica</h3>
-  <div class="dcard-text"><p>Fai un Tiro di Focus (13). Se riesci, crei una cortina di fumo termico tra due punti entro Lontano. Solo tu puoi vedere attraverso la cortina, grazie ai sensori sintonizzati. Sei Nascosto per gli avversari dall'altra parte, e hai vantaggio sugli attacchi che fai attraverso di essa. La cortina resta finché non usi un altro Protocollo.</p></div>
+  <h3 id="trappola-preparata">Trappola preparata</h3>
+  <div class="dcard-text"><p>Durante una sosta breve prepari il terreno. Nella scena successiva, il tuo primo attacco ha vantaggio e i tuoi alleati hanno +1 al primo tiro d'azione.</p></div>
 </article>
 </div>
 <h2 id="livello-4">Livello 4<a class="headerlink" href="#livello-4" title="Link permanente">#</a></h2>
 <div class="dcards">
-<article class="dcard dcard-abilita">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">4</span><span class="dcard-meta">Ombra · Abilità</span><span class="dcard-recall" title="Costo di richiamo">⚡ 0</span></header>
-  <h3 id="esperto-dinfiltrazione">Esperto d&#x27;infiltrazione</h3>
-  <div class="dcard-text"><p>Quando tiri con Paura mentre cerchi di attraversare senza farti notare una zona pericolosa, puoi segnare 1 Stress per tirare invece con Speranza. Se un alleato entro Vicino sta facendo lo stesso e tira con Paura, puoi segnare 1 Stress per trasformare il suo risultato in un tiro con Speranza.</p></div>
-</article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">4</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="marcatore-dei-punti-deboli">Marcatore dei punti deboli</h3>
-  <div class="dcard-text"><p>Fai un Tiro di Focus contro un bersaglio entro Molto vicino. Se riesci, spendi 1 Speranza per proiettare sul suo corpo un marcatore che ne evidenzia i punti deboli: la sua Difficoltà si riduce temporaneamente di un valore pari al tuo Ingegno (minimo 1).</p></div>
-</article>
-</div>
-<h2 id="livello-5">Livello 5<a class="headerlink" href="#livello-5" title="Link permanente">#</a></h2>
-<div class="dcards">
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">5</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="soppressore-sonoro">Soppressore sonoro</h3>
-  <div class="dcard-text"><p>Fai un Tiro di Focus contro un bersaglio entro Vicino. Se riesci, spendi 1 Speranza per avvolgerlo in un campo di soppressione che copre tutto ciò che è entro Molto vicino da lui e lo segue quando si muove. Il bersaglio e tutto ciò che è nel campo sono <strong>Silenziati</strong> finché il GM non spende 1 Paura nel suo turno per togliere la condizione, finché non usi di nuovo questo Protocollo o finché non subisci danno Maggiore. Chi è Silenziato non può fare rumore, comunicare via radio né attivare Protocolli o Poteri.</p></div>
-</article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">5</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 2</span></header>
-  <h3 id="ritirata-programmata">Ritirata programmata</h3>
-  <div class="dcard-text"><p>Spendi 1 Speranza per piazzare un faro di ritorno dove ti trovi. In qualsiasi momento prima della tua prossima sosta, spendi un'altra Speranza per sparire da dove sei e ricomparire dove hai piazzato il faro. L'effetto finisce quando ricompari.</p></div>
-</article>
-</div>
-<h2 id="livello-6">Livello 6<a class="headerlink" href="#livello-6" title="Link permanente">#</a></h2>
-<div class="dcards">
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">6</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 0</span></header>
-  <h3 id="canale-ombra">Canale ombra</h3>
-  <div class="dcard-text"><p>Puoi parlare nell'impianto uditivo di chiunque tu abbia toccato, grazie a un microtrasmettitore adesivo; il bersaglio può risponderti. Inoltre puoi segnare 1 Stress per fare un Tiro di Focus contro di lui: se riesci, incroci i dati del trasmettitore con il suo profilo e chiedi al GM una di queste cose:</p>
-<ul>
-<li>Dove si trova?</li>
-<li>Cosa sta facendo?</li>
-<li>Di cosa ha paura?</li>
-<li>Cosa gli è più caro al mondo?</li>
-</ul></div>
-</article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">6</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 0</span></header>
-  <h3 id="maschere-di-gruppo">Maschere di gruppo</h3>
-  <div class="dcard-text"><p>Se hai qualche minuto di calma, puoi segnare 1 Stress per cambiare l'aspetto di tutte le creature consenzienti entro Vicino con proiettori olografici. Le nuove forme devono avere struttura e taglia simili a quelle vere, e possono essere persone o esseri che hai visto o inventati. Chi è travestito ha vantaggio sui tiri di Presenza per non farsi scoprire. Attiva un conto alla rovescia (8), che avanza come conseguenza scelta dal GM: quando scatta, i travestimenti si spengono.</p></div>
-</article>
-</div>
-<h2 id="livello-7">Livello 7<a class="headerlink" href="#livello-7" title="Link permanente">#</a></h2>
-<div class="dcards">
-<article class="dcard dcard-abilita">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">7</span><span class="dcard-meta">Ombra · Abilità</span><span class="dcard-recall" title="Costo di richiamo">⚡ 2</span></header>
-  <h3 id="anima-dellombra">Anima dell&#x27;Ombra</h3>
-  <div class="dcard-text"><p>Quando nella tua dotazione ci sono 4 o più carte del dominio Ombra, ottieni:</p>
-<ul>
-<li>una volta per sosta, quando hai 0 Speranza e il GM sta per guadagnare 1 Paura, puoi invece guadagnare 1 Speranza;</li>
-<li>quando un attacco va a segno, puoi segnare 1 Stress per aggiungere il risultato del dado della Paura al tiro di danni.</li>
-</ul></div>
-</article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">7</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="schivata-fantasma">Schivata fantasma</h3>
-  <div class="dcard-text"><p>Quando fallisce un attacco contro di te che avrebbe inflitto danno fisico, puoi spendere 1 Speranza: il tuo emettitore lascia un'immagine residua al tuo posto mentre ti sposti in un punto entro Vicino dall'attaccante, Nascosto. Resti Nascosto fino al tuo prossimo tiro d'azione.</p></div>
-</article>
-</div>
-<h2 id="livello-8">Livello 8<a class="headerlink" href="#livello-8" title="Link permanente">#</a></h2>
-<div class="dcards">
-<article class="dcard dcard-abilita">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">8</span><span class="dcard-meta">Ombra · Abilità</span><span class="dcard-recall" title="Costo di richiamo">⚡ 2</span></header>
-  <h3 id="cacciatore-nel-buio">Cacciatore nel buio</h3>
-  <div class="dcard-text"><p>Rendi al meglio al riparo dalla luce. Quando sei in penombra o al buio, ottieni +1 all'Evasione e fai i tiri d'attacco con vantaggio.</p></div>
-</article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">8</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="accumulatore">Accumulatore</h3>
-  <div class="dcard-text"><p>Quando subisci danno energetico, metti su questa carta un numero di segnalini pari ai PF che hai segnato, fino a un massimo pari al tuo Tratto di Focus. Quando un attacco va a segno, puoi spendere quanti segnalini vuoi e aggiungere un d6 al tiro di danni per ciascuno.</p></div>
-</article>
-</div>
-<h2 id="livello-9">Livello 9<a class="headerlink" href="#livello-9" title="Link permanente">#</a></h2>
-<div class="dcards">
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">9</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 2</span></header>
-  <h3 id="proiezione-dellincubo">Proiezione dell&#x27;incubo</h3>
-  <div class="dcard-text"><p>Una volta per sosta lunga, scegli bersagli entro Molto vicino: un'illusione olografica e un infrasuono calibrato ti fanno apparire ai loro occhi come un incubo. Ogni bersaglio deve riuscire in un tiro di reazione (16) o diventare temporaneamente <strong>Terrorizzato</strong>, cioè Vulnerabile. Ruba al GM tanta Paura quanti sono i bersagli Terrorizzati (non più di quella che ha), tira un d6 per ogni Paura rubata e infliggi il totale a ciascun bersaglio Terrorizzato. Poi scarta la Paura rubata.</p></div>
+<article class="dcard dcard-jutsu">
+  <header class="dcard-head"><span class="dcard-lvl" title="Livello">4</span><span class="dcard-meta">Ombra · Jutsu</span><span class="dcard-recall" title="Costo di richiamo">⚡ 3</span></header>
+  <h3 id="ombra-di-tutti">Ombra di tutti</h3>
+  <div class="dcard-text"><p>Una volta per sosta, fai un Tiro di Jutsu contro tutti gli avversari entro Lontano. Chi colpisci è temporaneamente Immobilizzato.</p></div>
 </article>
 <article class="dcard dcard-abilita">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">9</span><span class="dcard-meta">Ombra · Abilità</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="conto-in-sospeso">Conto in sospeso</h3>
-  <div class="dcard-text"><p>Scegli un bersaglio entro Lontano. Quando riesci in un tiro d'azione contro di lui che non comporta un tiro di danni, metti un segnalino su questa carta. Quando gli infliggi danno, spendi quanti segnalini vuoi per aggiungere un d12 per ciascuno. Puoi avere un solo bersaglio alla volta; quando ne scegli un altro o fai una sosta, scarti i segnalini non spesi.</p></div>
+  <header class="dcard-head"><span class="dcard-lvl" title="Livello">4</span><span class="dcard-meta">Ombra · Abilità</span><span class="dcard-recall" title="Costo di richiamo">⚡ 2</span></header>
+  <h3 id="piano-perfetto">Piano perfetto</h3>
+  <div class="dcard-text"><p>Una volta per sessione, puoi dichiarare di aver previsto quello che sta succedendo: descrivi cosa avevi preparato, e il GM lo rende vero se è plausibile. Guadagni 1 Speranza.</p></div>
 </article>
 </div>
-<h2 id="livello-10">Livello 10<a class="headerlink" href="#livello-10" title="Link permanente">#</a></h2>
-<div class="dcards">
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">10</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 2</span></header>
-  <h3 id="blackout">Blackout</h3>
-  <div class="dcard-text"><p>Fai un Tiro di Focus (16). Una volta per sosta lunga, se riesci, getti tutta l'area entro Lontano in un buio totale: luci spente, sensori accecati. Solo tu e i tuoi alleati vedete, grazie ai visori sintonizzati. Gli attacchi contro di te o contro un alleato nel buio hanno svantaggio, e quando tu o un alleato riuscite con Speranza contro un avversario nel buio, il bersaglio segna 1 Stress. Dura finché il GM non spende 1 Paura nel suo turno per ripristinare le luci o finché non subisci danno Grave.</p></div>
-</article>
-<article class="dcard dcard-protocollo">
-  <header class="dcard-head"><span class="dcard-lvl" title="Livello">10</span><span class="dcard-meta">Ombra · Protocollo</span><span class="dcard-recall" title="Costo di richiamo">⚡ 1</span></header>
-  <h3 id="fase-spettrale">Fase spettrale</h3>
-  <div class="dcard-text"><p>Segna 1 Stress per sfasare il tuo corpo e diventare <strong>Spettrale</strong> finché non fai un tiro d'azione che bersaglia un'altra creatura. Mentre sei Spettrale sei immune ai danni fisici, puoi fluttuare e attraversare gli oggetti solidi. Le altre creature continuano a vederti.</p></div>
-</article>
-</div>
+
     </div>
-    <nav class="doc-pager" aria-label="Pagine"><a href="../domini/voce.html">← Voce</a><a href="../domini/gravita.html">Gravità →</a></nav>
+    <nav class="doc-pager" aria-label="Pagine"><a href="../domini/lava.html">← Lava</a><a href="../domini/ossa.html">Ossa →</a></nav>
   </article>
 </main>
 
 <footer class="site-footer">
   <p class="compat">Daggerheart™ Compatible. Terms at Daggerheart.com</p>
-  <p>Include materiale dal Daggerheart System Reference Document 2.0, © Critical Role, LLC, secondo la <a href="https://darringtonpress.com/license/">Darrington Press Community Gaming License</a>. Spaceheart non è affiliato a Darrington Press né a Critical Role. <a href="../licenza.html">Attribuzioni complete</a>.</p>
+  <p>Include materiale dal Daggerheart System Reference Document 2.0, © Critical Role, LLC, secondo la <a href="https://darringtonpress.com/license/">Darrington Press Community Gaming License</a>. Nindō non è affiliato a Darrington Press né a Critical Role.</p>
+  <p>Nindō è un fan-hack gratuito e non ufficiale. <em>Naruto</em> e tutti i nomi, personaggi e tecniche collegati sono © Masashi Kishimoto / Shueisha; questo sito non è affiliato né approvato dai titolari dei diritti e non è in vendita. <a href="../licenza.html">Attribuzioni complete</a>.</p>
 </footer>
 
 <script src="../js/toc.js"></script>
